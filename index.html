@@ -39,8 +39,9 @@
             <li><span>1</span>Choose the industry or vertical.</li>
             <li><span>2</span>Select the persona or position.</li>
             <li>
-              <span>3</span>Start the roleplay and answer the persona's
-              questions.
+              <span>3</span>Start the Roleplay with an initial Question to
+              the Persona to set the stage. Choose 1 of the options as the
+              Persona's Answers.
             </li>
           </ol>
         </header>
@@ -64,7 +65,8 @@
           <h2>Step 3 · Start Roleplay</h2>
           <div id="startSection" class="start-section">
             <p id="startInstructions">
-              Select a persona to unlock the roleplay.
+              Complete Step 1 (Industry) and Step 2 (Persona, position, and
+              CODA value) to activate the roleplay.
             </p>
             <button id="startTraining" class="primary-btn" disabled>
               Start Roleplay
@@ -107,17 +109,49 @@
             <span class="badge">No persona selected yet.</span>
           </div>
 
-          <div id="conversationLog" class="conversation-log">
-            <p class="empty-state">
-              No dialogue yet. Select a persona and start the roleplay.
-            </p>
-          </div>
+          <div class="roleplay-card">
+            <div class="roleplay-header">
+              <p class="eyebrow">Roleplay</p>
+              <h3>Live dialogue and notes</h3>
+              <p>
+                Drive the Q&A while capturing comments that keep CODA's value in
+                focus for the persona.
+              </p>
+            </div>
 
-          <div class="current-step">
-            <p id="currentPrompt" class="current-question">
-              <strong>Question:</strong> —
-            </p>
-            <div id="answerOptions" class="answer-options"></div>
+            <div class="roleplay-grid">
+              <div class="roleplay-column">
+                <div class="section-title-row">
+                  <h4>Dialogue log</h4>
+                </div>
+                <div id="conversationLog" class="conversation-log">
+                  <p class="empty-state">
+                    No dialogue yet. Select a persona and start the roleplay.
+                  </p>
+                </div>
+              </div>
+
+              <div class="roleplay-column">
+                <div class="section-title-row">
+                  <h4>Question &amp; answers</h4>
+                </div>
+                <div class="current-step">
+                  <p id="currentPrompt" class="current-question">
+                    <strong>Question:</strong> —
+                  </p>
+                  <div id="answerOptions" class="answer-options"></div>
+                </div>
+                <div class="comment-box">
+                  <label for="coachingNotes">Comments / coaching notes</label>
+                  <textarea
+                    id="coachingNotes"
+                    name="coachingNotes"
+                    rows="4"
+                    placeholder="Capture reactions, objections, or CODA value hooks."
+                  ></textarea>
+                </div>
+              </div>
+            </div>
           </div>
         </section>
       </main>
@@ -131,10 +165,14 @@
         <section class="feedback-panel">
           <h2>Real-time Coaching</h2>
           <div id="feedbackContent">
-            <p>
-              Answer quality, context, and the recommended red path will appear
-              here.
-            </p>
+            <div class="feedback-card">
+              <p><strong>Stay value-led.</strong> Keep CODA's benefit to the persona front and center.</p>
+              <ul>
+                <li>Link every reply to a CODA capability and the outcome they care about.</li>
+                <li>Call out the benefit in plain words: faster cash unlocks, safer uptime, or better control.</li>
+                <li>End with the next proof you will show, like a quick PoC or a dashboard.</li>
+              </ul>
+            </div>
           </div>
         </section>
       </aside>

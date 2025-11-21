@@ -7,9 +7,11 @@ const verticals = [
       {
         id: "ceoCfo",
         name: "CEO / CFO",
+        personaName: "Sloane Hartwell",
+        company: "HelioVista Energy",
         role: "Owns profitable growth and capital allocation.",
         shortDescription:
-          "Needs confidence that plant data is trustworthy so cash isn't frozen in duplicate or misclassified materials.",
+          "Needs confidence that plant data is trustworthy so cash is not frozen in duplicate or misclassified materials.",
         focusAreas: [
           "Working capital locked in redundant stock",
           "Visibility across sites and systems",
@@ -22,9 +24,9 @@ const verticals = [
             id: "ceo-cfo-1",
             text: "How do you currently measure the cash tied up in spare parts and project materials?",
             options: [
-              "Finance teams reconcile stock quarterly and adjust reserves if counts feel high.",
-              "We have a live dashboard that flags duplicates, so working capital is always visible.",
-              "Controllers guess based on historical spend because material masters are inconsistent.",
+              "Finance reconciles stock quarterly and adjusts reserves when counts look high.",
+              "We monitor a live dashboard that flags duplicates, so working capital stays visible.",
+              "Controllers rely on historical spend because material masters are inconsistent.",
             ],
             bestOptionIndex: 1,
             feedback: {
@@ -35,11 +37,11 @@ const verticals = [
           },
           {
             id: "ceo-cfo-2",
-            text: "When duplicate materials slip in, what downstream impact hurts you the most?",
+            text: "When duplicate materials slip into the catalog, what downstream impact hurts you the most?",
             options: [
               "Higher carrying costs and missed savings targets on procurement programs.",
-              "It only slows maintenance because techs can't find the right part description.",
-              "No real impact; we simply store more inventory to be safe.",
+              "Maintenance slows because technicians struggle to find the right description.",
+              "We just store more inventory to be safe, so there’s no perceived impact.",
             ],
             bestOptionIndex: 0,
             feedback: {
@@ -53,13 +55,13 @@ const verticals = [
             text: "What would you need to see in a 4-week pilot to greenlight funding?",
             options: [
               "A quantified forecast of cash released plus a plan to scale across refineries.",
-              "A few nice-to-have reports that show data quality trends over time.",
+              "A few reports that show data quality trends over time.",
               "Proof that engineering and maintenance teams can tolerate another tool in their stack.",
             ],
             bestOptionIndex: 0,
             feedback: {
               best: "Align the pilot on cash release and scale, then map CODA outputs directly to her investment criteria.",
-              weak: "Reports without financial linkage won't unlock budget. Reframe toward measurable KPIs.",
+              weak: "Reports without financial linkage will not unlock budget. Reframe toward measurable KPIs.",
               bad: "Tool tolerance misses the CFO's lens. Pivot to business outcomes and risk reduction.",
             },
           },
@@ -68,6 +70,8 @@ const verticals = [
       {
         id: "financeCfo",
         name: "Finance / CFO",
+        personaName: "Rafael McBride",
+        company: "HelioVista Energy",
         role: "Safeguards liquidity, reporting accuracy, and governance.",
         shortDescription:
           "Focuses on working-capital release and auditable data that keeps reconciliations clean across subsidiaries.",
@@ -81,10 +85,10 @@ const verticals = [
         questions: [
           {
             id: "fin-cfo-1",
-            text: "Do you have consolidated visibility of material stock and vendor spend across all sites?",
+            text: "Do you have consolidated visibility into material stock and vendor spend across all sites?",
             options: [
-              "Yes, we consolidate and trust the numbers.",
-              "Partially—we reconcile across a few ERPs but it takes effort.",
+              "Yes—we consolidate and trust the numbers.",
+              "Partially—we reconcile across a few ERPs, but it takes effort.",
               "Each site runs its own data, so consolidation is painful.",
             ],
             bestOptionIndex: 0,
@@ -99,8 +103,8 @@ const verticals = [
             text: "How do you calculate the working capital you could release by cleansing duplicate or obsolete stock?",
             options: [
               "We model scenarios by category to see the cash impact quickly.",
-              "We have a rough estimate based on historical write-offs.",
-              "We don't calculate it—operations just carries the stock.",
+              "We carry a rough estimate based on historical write-offs.",
+              "We don’t calculate it—operations just carries the stock.",
             ],
             bestOptionIndex: 0,
             feedback: {
@@ -129,6 +133,8 @@ const verticals = [
       {
         id: "cioHeadIt",
         name: "CIO / Head of IT",
+        personaName: "Priya Nandakumar",
+        company: "HelioVista Energy",
         role: "Owns the application landscape and integration standards.",
         shortDescription:
           "Balances SAP/Maximo governance with scalable integrations that prevent duplicate masters across systems.",
@@ -142,10 +148,10 @@ const verticals = [
         questions: [
           {
             id: "cio-1",
-            text: "How do you manage your material master across SAP, Maximo, and any CMMS instances?",
+            text: "How do you manage material masters across SAP, Maximo, and any CMMS instances?",
             options: [
               "Everything is governed centrally through SAP.",
-              "We coordinate between SAP and Maximo but rely on people to sync.",
+              "We coordinate between SAP and Maximo but rely on people to keep them in sync.",
               "Each site handles its own masters with little coordination.",
             ],
             bestOptionIndex: 0,
@@ -159,24 +165,24 @@ const verticals = [
             id: "cio-2",
             text: "Who approves new master data and ensures attributes are consistent?",
             options: [
-              "Clear RACI with IT owning standards and business validating content.",
-              "Shared, but it depends on who is available that week.",
-              "No defined owner; it just happens during projects.",
+              "We have a clear RACI with IT owning standards and the business validating content.",
+              "Ownership is shared, but it depends on who is available that week.",
+              "There is no defined owner; it just happens during projects.",
             ],
             bestOptionIndex: 0,
             feedback: {
               best: "Great. CODA can codify that RACI and provide the workflow evidence leadership expects.",
               weak: "Ad-hoc ownership risks drift. Position CODA to standardize approvals and SLA tracking.",
-              bad: "No ownership means chaos. CODA brings a governed flow that won't slow delivery.",
+              bad: "No ownership means chaos. CODA brings a governed flow that will not slow delivery.",
             },
           },
           {
             id: "cio-3",
             text: "How do you detect and resolve duplicates before they hit downstream systems?",
             options: [
-              "Automated validations at creation with clear exception handling.",
+              "We run automated validations at creation with clear exception handling.",
               "We rely on periodic cleanups or user reports to find duplicates.",
-              "We rarely detect them—it's not a priority.",
+              "We rarely detect them—it is not a priority.",
             ],
             bestOptionIndex: 0,
             feedback: {
@@ -190,6 +196,8 @@ const verticals = [
       {
         id: "opsMaintenanceHead",
         name: "Operations / Maintenance Head",
+        personaName: "Caleb Drummond",
+        company: "HelioVista Energy",
         role: "Keeps production reliable across plants and turnarounds.",
         shortDescription:
           "Needs accurate materials and vendor data so crews can execute safely without delays or excess buffers.",
@@ -203,11 +211,11 @@ const verticals = [
         questions: [
           {
             id: "ops-1",
-            text: "How do you keep maintenance teams confident the part they pick matches the work order?",
+            text: "How do you keep maintenance teams confident that the part they pick matches the work order?",
             options: [
               "Supervisors rely on tribal knowledge and photos in chat groups to confirm parts.",
               "We run a standardized catalog that enforces descriptions before anything is issued.",
-              "Techs swap parts if they look close enough and deal with issues later.",
+              "Technicians swap parts if they look close enough and deal with issues later.",
             ],
             bestOptionIndex: 1,
             feedback: {
@@ -218,7 +226,7 @@ const verticals = [
           },
           {
             id: "ops-2",
-            text: "What happens when a bill of materials includes a material ID that doesn't exist anymore?",
+            text: "What happens when a bill of materials includes a material ID that no longer exists?",
             options: [
               "Work stops while planners scramble to find an alternative.",
               "We have an automated cross-reference process that points to the right replacement.",
@@ -235,8 +243,8 @@ const verticals = [
             id: "ops-3",
             text: "How do you decide the right safety stock when specs differ slightly across plants?",
             options: [
-              "We set conservative levels because we don't trust the descriptions.",
-              "We normalize specs and share one source of truth, so buffers are lean.",
+              "We set conservative levels because we don’t fully trust the descriptions.",
+              "We normalize specs and share one source of truth, so buffers stay lean.",
               "Each plant picks its own policy, and we revisit it every few years.",
             ],
             bestOptionIndex: 1,
@@ -251,6 +259,8 @@ const verticals = [
       {
         id: "plantManager",
         name: "Plant Manager / Site Manager",
+        personaName: "Monica Reyes",
+        company: "HelioVista Energy",
         role: "Delivers uptime targets across production lines and shifts.",
         shortDescription:
           "Wants trusted data so outages aren't extended by wrong picks, missing parts, or reliance on one expert.",
@@ -264,11 +274,11 @@ const verticals = [
         questions: [
           {
             id: "plant-1",
-            text: "When you plan maintenance, does the team rely more on system data or experienced individuals?",
+            text: "When you plan maintenance, does the team rely more on system data or on experienced individuals?",
             options: [
               "The system is trusted for planning and picking.",
               "We mix system data with tribal knowledge depending on the shift.",
-              "Mostly experience—system data isn't reliable enough.",
+              "Mostly experience—system data isn’t reliable enough.",
             ],
             bestOptionIndex: 0,
             feedback: {
@@ -312,6 +322,8 @@ const verticals = [
       {
         id: "engineeringHead",
         name: "Engineering / Asset Integrity Head",
+        personaName: "Darius O'Neill",
+        company: "HelioVista Energy",
         role: "Protects asset reliability and compliance across the fleet.",
         shortDescription:
           "Needs BOMs and asset registers to stay synchronized so failures aren't caused by wrong specs or missing lineage.",
@@ -344,7 +356,7 @@ const verticals = [
             options: [
               "Regular reconciliations and governed change control.",
               "Periodic reviews when time allows.",
-              "We assume BOMs are right unless there's a problem.",
+              "We assume BOMs are right unless there is a problem.",
             ],
             bestOptionIndex: 0,
             feedback: {
@@ -373,6 +385,8 @@ const verticals = [
       {
         id: "inventoryController",
         name: "Inventory Controller / Warehouse Manager",
+        personaName: "Lena Grigori",
+        company: "HelioVista Energy",
         role: "Manages inventory accuracy, space, and issuing discipline.",
         shortDescription:
           "Needs clean, deduplicated stock data so bins are trusted, slow movers shrink, and audits stay clean.",
@@ -405,7 +419,7 @@ const verticals = [
             options: [
               "Unclear descriptions lead buyers to order items we already own.",
               "We intentionally overbuy to avoid stockouts during outages.",
-              "Suppliers ship alternates we didn't approve and we shelve them.",
+              "Suppliers ship alternates we did not approve and we shelve them.",
             ],
             bestOptionIndex: 0,
             feedback: {
@@ -434,6 +448,8 @@ const verticals = [
       {
         id: "procurementHead",
         name: "Procurement / Supply Chain Head",
+        personaName: "Hector Valdez",
+        company: "HelioVista Energy",
         role: "Secures materials at the right cost, quality, and speed.",
         shortDescription:
           "Needs standardized specs to negotiate confidently, avoid maverick spend, and enable supplier consolidation.",
@@ -451,7 +467,7 @@ const verticals = [
             options: [
               "We rely on buyer experience to spot duplicates during PO creation.",
               "We have a governed catalog that blocks duplicates before requisitions are approved.",
-              "We don't worry much—vendors usually correct us if we order wrong.",
+              "We do not worry much—vendors usually correct us if we order wrong.",
             ],
             bestOptionIndex: 1,
             feedback: {
@@ -495,6 +511,8 @@ const verticals = [
       {
         id: "categoryManager",
         name: "Category Manager / Strategic Sourcing",
+        personaName: "Tessa Bloom",
+        company: "HelioVista Energy",
         role: "Owns category strategy, supplier rationalization, and savings targets.",
         shortDescription:
           "Wants harmonized supplier and material data so price comparisons are fair and savings are defensible.",
@@ -527,7 +545,7 @@ const verticals = [
             options: [
               "We compare normalized specs and price files regularly.",
               "We review a few key items manually when renewing contracts.",
-              "We rely on sites to negotiate locally and assume it's optimized.",
+              "We rely on sites to negotiate locally and assume it is optimized.",
             ],
             bestOptionIndex: 0,
             feedback: {
@@ -556,9 +574,11 @@ const verticals = [
       {
         id: "digitalLead",
         name: "Digital Transformation Lead",
+        personaName: "Ivy Carrow",
+        company: "HelioVista Energy",
         role: "Drives automation, IoT, and analytics programs that rely on clean data.",
         shortDescription:
-          "Links digital success to standardized master data so initiatives don't stall from inconsistent records.",
+          "Links digital success to standardized master data so initiatives do not stall from inconsistent records.",
         focusAreas: [
           "Data readiness for digital and automation use cases",
           "Cross-site standards that enable scaling",
@@ -603,7 +623,7 @@ const verticals = [
             options: [
               "Leading indicators like rising exceptions or model drift.",
               "We notice when users complain about bad suggestions.",
-              "We don't track it—the team just fixes issues as they appear.",
+              "We do not track it—the team just fixes issues as they appear.",
             ],
             bestOptionIndex: 0,
             feedback: {
@@ -625,6 +645,8 @@ const verticals = [
       {
         id: "utilityExec",
         name: "COO / CFO",
+        personaName: "Mara Kingsley",
+        company: "Northwind Grid Co.",
         role: "Owns grid reliability, rate cases, and capital efficiency.",
         shortDescription:
           "Needs defensible data for rate cases and capital plans while keeping inventory lean across depots.",
@@ -686,6 +708,8 @@ const verticals = [
       {
         id: "gridOps",
         name: "Grid Operations Director",
+        personaName: "Owen Talbot",
+        company: "Northwind Grid Co.",
         role: "Keeps grid uptime high and crews safe during outages and storms.",
         shortDescription:
           "Needs accurate materials and configurations so field crews install the right components the first time.",
@@ -747,6 +771,8 @@ const verticals = [
       {
         id: "supplyLead",
         name: "Supply Chain / SCM",
+        personaName: "Janelle Farrow",
+        company: "Northwind Grid Co.",
         role: "Secures materials and services while meeting rate and service goals.",
         shortDescription:
           "Wants standardized specs to consolidate suppliers, speed RFQs, and avoid maverick spend during outages.",
@@ -808,6 +834,8 @@ const verticals = [
       {
         id: "assetEngineer",
         name: "Asset Engineering",
+        personaName: "Rishi Menon",
+        company: "Northwind Grid Co.",
         role: "Owns asset standards, compatibility, and reliability across the fleet.",
         shortDescription:
           "Needs BOMs and asset registers synchronized so failures aren’t caused by mismatched specs or lineage gaps.",
@@ -869,6 +897,8 @@ const verticals = [
       {
         id: "digitalUtility",
         name: "Digital Transformation Lead",
+        personaName: "Noor Calder",
+        company: "Northwind Grid Co.",
         role: "Drives grid automation, analytics, and workforce tools.",
         shortDescription:
           "Links digital success to standardized master data so initiatives don’t stall from inconsistent records.",
@@ -938,6 +968,8 @@ const verticals = [
       {
         id: "mfgExec",
         name: "VP Operations / CFO",
+        personaName: "Damon Kessler",
+        company: "Asterline Manufacturing",
         role: "Owns throughput, cost, and capital effectiveness across plants.",
         shortDescription:
           "Needs trustworthy data to cut working capital while keeping production schedules predictable.",
@@ -999,6 +1031,8 @@ const verticals = [
       {
         id: "mfgPlant",
         name: "Plant Manager",
+        personaName: "Alicia Trent",
+        company: "Asterline Manufacturing",
         role: "Delivers uptime and OEE targets for a production site.",
         shortDescription:
           "Needs trusted BOMs and stock data so outages aren’t extended by wrong picks or missing parts.",
@@ -1060,6 +1094,8 @@ const verticals = [
       {
         id: "mfgProcurement",
         name: "Procurement Lead",
+        personaName: "Victor Hanley",
+        company: "Asterline Manufacturing",
         role: "Secures materials at the right cost, quality, and speed.",
         shortDescription:
           "Needs standardized specs to negotiate confidently, avoid maverick spend, and enable supplier consolidation.",
@@ -1121,6 +1157,8 @@ const verticals = [
       {
         id: "mfgQuality",
         name: "Quality / Engineering",
+        personaName: "Serena Valtas",
+        company: "Asterline Manufacturing",
         role: "Protects product quality and compliance across lines.",
         shortDescription:
           "Needs harmonized specs and BOMs so variants stay controlled and recalls are traceable.",
@@ -1182,6 +1220,8 @@ const verticals = [
       {
         id: "mfgDigital",
         name: "Digital / Analytics Lead",
+        personaName: "Jordan Pike",
+        company: "Asterline Manufacturing",
         role: "Delivers analytics, IoT, and automation tied to production outcomes.",
         shortDescription:
           "Links digital success to standardized master data so initiatives don’t stall from inconsistent records.",
@@ -1251,6 +1291,8 @@ const verticals = [
       {
         id: "hcCdo",
         name: "Chief Data Officer / CMIO",
+        personaName: "Dr. Liana Mercer",
+        company: "Novella Health Network",
         role: "Owns data quality, interoperability, and clinical decision support readiness.",
         shortDescription:
           "Needs standardized masters so EHR, ERP, and clinical systems agree, avoiding safety and reporting risk.",
@@ -1312,6 +1354,8 @@ const verticals = [
       {
         id: "hcSupply",
         name: "Supply Chain Director",
+        personaName: "Evan Carlisle",
+        company: "Novella Health Network",
         role: "Manages sourcing, contracts, and inventory across hospitals or labs.",
         shortDescription:
           "Wants consistent item masters and vendor data to negotiate confidently and prevent stockouts for clinicians.",
@@ -1373,6 +1417,8 @@ const verticals = [
       {
         id: "hcClinicalEng",
         name: "Clinical Engineering Director",
+        personaName: "Priyanka Das",
+        company: "Novella Health Network",
         role: "Maintains devices and assets to keep care safe and compliant.",
         shortDescription:
           "Needs accurate asset and part data so maintenance is first-time-right and recalls are handled fast.",
@@ -1434,6 +1480,8 @@ const verticals = [
       {
         id: "hcQuality",
         name: "Quality & Compliance Officer",
+        personaName: "Malcolm Ivers",
+        company: "Novella Health Network",
         role: "Ensures data supports regulatory reporting and patient safety.",
         shortDescription:
           "Needs evidence that masters are governed so audits, UDI, and safety reporting are reliable.",
@@ -1495,6 +1543,8 @@ const verticals = [
       {
         id: "hcDigital",
         name: "Digital Health Lead",
+        personaName: "Ciara Velasquez",
+        company: "Novella Health Network",
         role: "Drives analytics, automation, and virtual care programs.",
         shortDescription:
           "Links digital success to standardized master data so new programs aren’t blocked by inconsistent records.",
@@ -1564,6 +1614,8 @@ const verticals = [
       {
         id: "retailCoo",
         name: "COO / Merchandising Lead",
+        personaName: "Nadia Holbrook",
+        company: "Lumina Retail Collective",
         role: "Owns category profitability, availability, and experience across channels.",
         shortDescription:
           "Wants trusted product data to avoid missed sales, inflated inventory, and inconsistent customer experiences.",
@@ -1625,6 +1677,8 @@ const verticals = [
       {
         id: "retailSupply",
         name: "Supply Chain & Logistics Director",
+        personaName: "Felix Munroe",
+        company: "Lumina Retail Collective",
         role: "Moves inventory efficiently across DCs, stores, and customers.",
         shortDescription:
           "Needs clean masters so replenishment, routing, and substitutions don’t create waste or delays.",
@@ -1686,6 +1740,8 @@ const verticals = [
       {
         id: "retailEcom",
         name: "eCommerce / Digital Product Lead",
+        personaName: "Zoe Hartigan",
+        company: "Lumina Retail Collective",
         role: "Owns digital experience and conversion across web and mobile.",
         shortDescription:
           "Needs consistent product content so search, recommendations, and PDPs convert reliably.",
@@ -1747,6 +1803,8 @@ const verticals = [
       {
         id: "retailInventory",
         name: "Inventory Planning Manager",
+        personaName: "Greta Linwood",
+        company: "Lumina Retail Collective",
         role: "Plans demand and allocates stock across channels and stores.",
         shortDescription:
           "Needs reliable masters so forecasts, allocations, and substitutes don’t misfire.",
@@ -1808,6 +1866,8 @@ const verticals = [
       {
         id: "retailGovernance",
         name: "Data Governance / IT Director",
+        personaName: "Arman Duval",
+        company: "Lumina Retail Collective",
         role: "Sets standards and integrations across commerce, stores, and supply systems.",
         shortDescription:
           "Needs a way to enforce taxonomy, approvals, and integrations without slowing the business.",
@@ -1877,6 +1937,8 @@ const verticals = [
       {
         id: "fsCdo",
         name: "Chief Data Officer",
+        personaName: "Callum Reeves",
+        company: "Apex Horizon Bank",
         role: "Owns data quality, lineage, and controls across products and customers.",
         shortDescription:
           "Needs governed masters so analytics, onboarding, and regulatory reports align across systems.",
@@ -1938,6 +2000,8 @@ const verticals = [
       {
         id: "fsRisk",
         name: "Risk & Compliance Officer",
+        personaName: "Petra Sandoval",
+        company: "Apex Horizon Bank",
         role: "Ensures data supports KYC, AML, and regulatory obligations.",
         shortDescription:
           "Needs confidence that masters meet policy so audits, KYC, and AML controls are reliable.",
@@ -1999,6 +2063,8 @@ const verticals = [
       {
         id: "fsOps",
         name: "Operations / Claims Director",
+        personaName: "Marcus Llewellyn",
+        company: "Apex Horizon Bank",
         role: "Drives efficiency and accuracy across servicing and claims.",
         shortDescription:
           "Wants clean masters so claims, servicing, and policy changes are handled fast without rework.",
@@ -2060,6 +2126,8 @@ const verticals = [
       {
         id: "fsTreasury",
         name: "Treasury / Finance Transformation",
+        personaName: "Saira Whitfield",
+        company: "Apex Horizon Bank",
         role: "Safeguards liquidity, reporting accuracy, and capital efficiency.",
         shortDescription:
           "Needs harmonized masters to reduce reconciliation effort and make funding decisions faster.",
@@ -2121,6 +2189,8 @@ const verticals = [
       {
         id: "fsDigital",
         name: "Digital Channels Lead",
+        personaName: "Theo Marquez",
+        company: "Apex Horizon Bank",
         role: "Owns digital onboarding, servicing, and personalization.",
         shortDescription:
           "Needs consistent masters so onboarding, offers, and analytics work across channels without friction.",
@@ -2204,11 +2274,44 @@ const metricPersonasEl = document.getElementById("metricPersonas");
 const metricQuestionsEl = document.getElementById("metricQuestions");
 const contextBadgesEl = document.getElementById("contextBadges");
 
+const coachingIntroHtml = `
+  <div class="feedback-card">
+    <p><strong>Stay value-led.</strong> Keep CODA's benefit to the persona front and center.</p>
+    <ul>
+      <li>Link every reply to a CODA capability and the outcome they care about.</li>
+      <li>Call out the benefit in plain words: faster cash unlocks, safer uptime, or better control.</li>
+      <li>End with the next proof you will show, like a quick PoC or a dashboard.</li>
+    </ul>
+  </div>
+`;
+
 let currentIndustry = null;
 let currentPersona = null;
 let currentQuestionIndex = 0;
 let totalQuestions = 0;
 let displayedQuestionText = "";
+
+function getPersonaIdentity(persona) {
+  if (!persona) return "";
+  const primaryName = persona.personaName || persona.name || "Persona";
+  return persona.company ? `${primaryName} · ${persona.company}` : primaryName;
+}
+
+function getPersonaPosition(persona) {
+  if (!persona) return "";
+  if (persona.role && persona.name) {
+    return `${persona.name} — ${persona.role}`;
+  }
+  return persona.role || persona.name || "";
+}
+
+function getPersonaBadgeLabel(persona) {
+  if (!persona) return "";
+  const primaryName = persona.personaName || persona.name || "Persona";
+  return persona.name && persona.personaName
+    ? `${primaryName} (${persona.name})`
+    : primaryName;
+}
 
 function init() {
   renderLibraryMetrics();
@@ -2260,10 +2363,16 @@ function renderContextBadges() {
     currentPersona.redPath ||
       "Guide the dialogue toward an evidence-backed PoC",
   );
+  const personaBadge = getPersonaBadgeLabel(currentPersona);
+  const personaPosition = getPersonaPosition(currentPersona);
 
   contextBadgesEl.innerHTML = `
     <span class="badge"><strong>Industry</strong> ${currentIndustry.name}</span>
-    <span class="badge"><strong>Persona</strong> ${currentPersona.name}</span>
+    <span class="badge"><strong>Persona</strong> ${personaBadge}</span>
+    <span class="badge"><strong>Position</strong> ${personaPosition}</span>
+    <span class="badge"><strong>Company</strong> ${
+      currentPersona.company || "—"
+    }</span>
     <span class="badge"><strong>Focus</strong> ${focusSummary}</span>
     <span class="badge"><strong>Red-path</strong> ${redPathSummary}</span>
   `;
@@ -2291,7 +2400,8 @@ function selectIndustry(industryId) {
   renderIndustryDetails();
   renderPersonaList();
   startTrainingButton.disabled = true;
-  startInstructionsEl.textContent = "Select a persona to unlock the roleplay.";
+  startInstructionsEl.textContent =
+    "Complete Step 1 and Step 2 to unlock Step 3. Keep CODA's value to the persona in mind.";
   resetConversation();
   personaDetailsEl.innerHTML =
     "<p>Select a persona to view the storyline, value focus, and the best probing path.</p>";
@@ -2325,7 +2435,10 @@ function renderPersonaList() {
   currentIndustry.personas.forEach((persona) => {
     const li = document.createElement("li");
     const button = document.createElement("button");
-    button.textContent = `${persona.name} · ${persona.role}`;
+    button.innerHTML = `
+      <span class="persona-button-title">${getPersonaIdentity(persona)}</span>
+      <span class="persona-button-meta">${getPersonaPosition(persona)}</span>
+    `;
     button.dataset.id = persona.id;
     button.addEventListener("click", () => selectPersona(persona.id));
     li.appendChild(button);
@@ -2345,9 +2458,10 @@ function selectPersona(personaId) {
   renderPersonaDetails();
   renderRedPathCard();
   resetConversation();
-  startTrainingButton.disabled = !currentPersona;
+  startTrainingButton.disabled = !(currentIndustry && currentPersona);
   if (currentPersona) {
-    startInstructionsEl.textContent = "Ready when you are. Start the roleplay.";
+    startInstructionsEl.textContent =
+      "Start the roleplay with an opening question and pick how the persona answers to set the stage.";
   }
   renderContextBadges();
 }
@@ -2376,8 +2490,8 @@ function renderPersonaDetails() {
     <div class="persona-header">
       <div>
         <h2>Persona briefing</h2>
-        <p class="persona-name">${currentPersona.name}</p>
-        <p class="persona-role">${currentPersona.role}</p>
+        <p class="persona-name">${getPersonaIdentity(currentPersona)}</p>
+        <p class="persona-role">${getPersonaPosition(currentPersona)}</p>
       </div>
       ${badgeList ? `<ul class="pill-list">${badgeList}</ul>` : ""}
     </div>
@@ -2397,11 +2511,23 @@ function renderRedPathCard() {
     currentPersona.redPath ||
       "Guide the dialogue to expose data risk, connect it to this persona's goals, and co-design a fast CODA proof.",
   );
+  const focusSummary =
+    (currentPersona.focusAreas || []).slice(0, 2).join(" and ") ||
+    "cash discipline, uptime, and control";
+  const personaIdentity = getPersonaIdentity(currentPersona);
 
   redPathCardEl.innerHTML = `
     <h2>Red-path Strategy</h2>
     <p>${redPathText}</p>
-    <p><strong>Reminder:</strong> Keep answers crisp, tie back to MDM-enabled outcomes, and secure next steps.</p>
+    <div class="redpath-steps">
+      <p><strong>Train like this:</strong></p>
+      <ol>
+        <li>Lead with CODA's value in one line for ${personaIdentity}.</li>
+        <li>Spell out the benefits they care about: ${focusSummary}.</li>
+        <li>Keep the dialogue moving toward a quick CODA proof or pilot.</li>
+      </ol>
+      <p><strong>Stay clear:</strong> Use simple language and connect every answer to how CODA helps this persona win.</p>
+    </div>
   `;
 }
 
@@ -2410,12 +2536,13 @@ function startRoleplay() {
   currentQuestionIndex = 0;
   totalQuestions = currentPersona.questions.length;
   displayedQuestionText = "";
-  scenarioTitleEl.textContent = `${currentPersona.name} Roleplay`;
-  scenarioDescriptionEl.textContent = currentPersona.shortDescription;
+  const personaIdentity = getPersonaIdentity(currentPersona);
+  const personaPosition = getPersonaPosition(currentPersona);
+  scenarioTitleEl.textContent = `Roleplay with ${personaIdentity}`;
+  scenarioDescriptionEl.textContent = `${personaPosition} ${currentPersona.shortDescription}`;
   restartButton.disabled = false;
   conversationLogEl.innerHTML = "";
-  feedbackContentEl.innerHTML =
-    "<p>Answer quality, context, and the recommended red path will appear here.</p>";
+  feedbackContentEl.innerHTML = coachingIntroHtml;
   refreshProgress(0, totalQuestions);
   renderCurrentQuestion();
 }
@@ -2426,8 +2553,7 @@ function resetConversation() {
   currentPromptEl.innerHTML = "<strong>Question:</strong> —";
   answerOptionsEl.innerHTML = "";
   displayedQuestionText = "";
-  feedbackContentEl.innerHTML =
-    "<p>Answer quality, context, and the recommended red path will appear here.</p>";
+  feedbackContentEl.innerHTML = coachingIntroHtml;
   restartButton.disabled = true;
   refreshProgress(0, 0);
 }
