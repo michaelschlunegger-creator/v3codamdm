@@ -22,7 +22,7 @@ const verticals = [
         questions: [
           {
             id: "ceo-cfo-1",
-            text: "How do you currently measure the cash tied up in spare parts and project materials?",
+            text: "A peer CEO unlocked $10M by exposing duplicate spares—how do you measure the cash tied up in spare parts and project materials today?",
             options: [
               "Finance reconciles stock quarterly and adjusts reserves when counts look high.",
               "We monitor a live dashboard that flags duplicates, so working capital stays visible.",
@@ -85,7 +85,7 @@ const verticals = [
         questions: [
           {
             id: "fin-cfo-1",
-            text: "Do you have consolidated visibility into material stock and vendor spend across all sites?",
+            text: "After consolidating vendor data across refineries, how much visibility do you have into material stock and vendor spend across all sites?",
             options: [
               "Yes—we consolidate and trust the numbers.",
               "Partially—we reconcile across a few ERPs, but it takes effort.",
@@ -148,7 +148,7 @@ const verticals = [
         questions: [
           {
             id: "cio-1",
-            text: "How do you manage material masters across SAP, Maximo, and any CMMS instances?",
+            text: "After a CMMS rollout flooded SAP with duplicates, how are you governing material masters across SAP, Maximo, and other CMMS instances?",
             options: [
               "Everything is governed centrally through SAP.",
               "We coordinate between SAP and Maximo but rely on people to keep them in sync.",
@@ -211,7 +211,7 @@ const verticals = [
         questions: [
           {
             id: "ops-1",
-            text: "How do you keep maintenance teams confident that the part they pick matches the work order?",
+            text: "A maintenance leader avoided a shutdown by fixing item descriptions early—how do you keep crews confident the part they pick matches the work order?",
             options: [
               "Supervisors rely on tribal knowledge and photos in chat groups to confirm parts.",
               "We run a standardized catalog that enforces descriptions before anything is issued.",
@@ -274,7 +274,7 @@ const verticals = [
         questions: [
           {
             id: "plant-1",
-            text: "When you plan maintenance, does the team rely more on system data or on experienced individuals?",
+            text: "A peer plant manager cut outage time by trusting the catalog over tribal knowledge—when you plan maintenance, does your team rely on system data or on experience?",
             options: [
               "The system is trusted for planning and picking.",
               "We mix system data with tribal knowledge depending on the shift.",
@@ -337,7 +337,7 @@ const verticals = [
         questions: [
           {
             id: "eng-1",
-            text: "Do you maintain one centralized asset register or does each site manage its own version?",
+            text: "After an audit flagged multiple asset registers at a peer, do you maintain one centralized register or does each site manage its own version?",
             options: [
               "Centralized with clear standards and approvals.",
               "Partly centralized—sites have some autonomy.",
@@ -400,7 +400,7 @@ const verticals = [
         questions: [
           {
             id: "wh-1",
-            text: "How often do you discover duplicate materials across bins or sites?",
+            text: "A warehouse lead recently found hidden cash in duplicate bins—how often do you discover duplicate materials across bins or sites?",
             options: [
               "Monthly cycle counts expose duplicates we then merge manually.",
               "Rarely, because our master data and barcodes are consistent.",
@@ -463,7 +463,7 @@ const verticals = [
         questions: [
           {
             id: "proc-1",
-            text: "How do you avoid buying the same part under multiple descriptions or vendors?",
+            text: "A supply-chain head stopped a costly duplicate-order leak last quarter—how do you avoid buying the same part under multiple descriptions or vendors?",
             options: [
               "We rely on buyer experience to spot duplicates during PO creation.",
               "We have a governed catalog that blocks duplicates before requisitions are approved.",
@@ -526,7 +526,7 @@ const verticals = [
         questions: [
           {
             id: "cat-1",
-            text: "Do you maintain centralized supplier and material data for your category?",
+            text: "To win better terms, a sourcing peer centralized specs across vendors—do you maintain centralized supplier and material data for your category?",
             options: [
               "Yes—one governed catalog across sites.",
               "Partly—we centralize top spend but some sites keep local lists.",
@@ -589,7 +589,7 @@ const verticals = [
         questions: [
           {
             id: "dig-1",
-            text: "How do you ensure digital and automation initiatives are backed by clean, standardized data?",
+            text: "After a predictive maintenance pilot failed from bad masters, how do you ensure digital and automation initiatives are backed by clean, standardized data?",
             options: [
               "We embed data quality checks into every initiative.",
               "We try, but standards vary by site.",
@@ -660,7 +660,7 @@ const verticals = [
         questions: [
           {
             id: "util-exec-1",
-            text: "How do you quantify spare-parts carrying cost when filing a rate case?",
+            text: "A fellow COO secured a rate win by proving duplicate inventory costs—how do you quantify spare-parts carrying cost when filing a rate case?",
             options: [
               "Finance estimates based on prior-year reserves and carry a buffer for uncertainty.",
               "We track live duplication rates and capitalize only what’s trusted.",
@@ -723,7 +723,7 @@ const verticals = [
         questions: [
           {
             id: "grid-1",
-            text: "How do you ensure a crew picks the right transformer or switch on the first visit?",
+            text: "After a storm response, a director avoided repeat truck rolls by tightening item data—how do you ensure a crew picks the right transformer or switch on the first visit?",
             options: [
               "Supervisors rely on photos and tribal knowledge during dispatch.",
               "We enforce standardized descriptions and compatible parts lists in the work order.",
@@ -786,7 +786,7 @@ const verticals = [
         questions: [
           {
             id: "util-scm-1",
-            text: "How do you prevent buying the same part under multiple vendor names?",
+            text: "A utility supply-chain lead shaved millions by eliminating duplicate vendor names—how do you prevent buying the same part under multiple vendor names?",
             options: [
               "Buyers rely on experience during PO creation.",
               "Our governed catalog blocks duplicates before approval.",
@@ -849,7 +849,7 @@ const verticals = [
         questions: [
           {
             id: "util-eng-1",
-            text: "Do you maintain one asset register or do regions manage their own?",
+            text: "When regulators asked for lineage, a peer had to reconcile multiple registers—do you keep one asset register or do regions manage their own?",
             options: [
               "Centralized with clear standards.",
               "Partly centralized—regions have autonomy.",
@@ -912,7 +912,7 @@ const verticals = [
         questions: [
           {
             id: "util-dig-1",
-            text: "Which digital programs struggle most because of data quality?",
+            text: "After a grid automation pilot stalled on messy masters, which digital programs struggle most because of data quality?",
             options: [
               "Grid automation and outage analytics.",
               "Procurement visibility across regions.",
@@ -983,7 +983,7 @@ const verticals = [
         questions: [
           {
             id: "mfg-exec-1",
-            text: "How do you measure cash tied up in duplicate or obsolete parts across plants?",
+            text: "A manufacturing CFO released idle cash by exposing duplicate parts—how do you measure cash tied up in duplicate or obsolete parts across plants?",
             options: [
               "We have a live dashboard that flags duplicates and excess stock.",
               "Controllers estimate based on historical write-offs.",
@@ -1046,7 +1046,7 @@ const verticals = [
         questions: [
           {
             id: "mfg-plant-1",
-            text: "When you plan maintenance, do teams trust system data or rely on experts?",
+            text: "A peer plant manager shortened outages by trusting the catalog—when you plan maintenance, do teams trust system data or rely on experts?",
             options: [
               "System is trusted for planning and picking.",
               "We mix system data with tribal knowledge depending on the shift.",
@@ -1109,7 +1109,7 @@ const verticals = [
         questions: [
           {
             id: "mfg-proc-1",
-            text: "How do you avoid buying the same part under multiple descriptions?",
+            text: "After harmonizing specs across plants, how do you avoid buying the same part under multiple descriptions?",
             options: [
               "Buyers spot duplicates during PO creation.",
               "Governed catalog blocks duplicates before requisitions are approved.",
@@ -1172,7 +1172,7 @@ const verticals = [
         questions: [
           {
             id: "mfg-qual-1",
-            text: "How do you keep BOMs synchronized when components change?",
+            text: "When a component change caused defects for a peer, how do you keep BOMs synchronized when components change?",
             options: [
               "We run governed change control with clear approvals.",
               "Project teams update BOMs when reminded.",
@@ -1235,7 +1235,7 @@ const verticals = [
         questions: [
           {
             id: "mfg-dig-1",
-            text: "Which digital programs struggle because of data quality?",
+            text: "A predictive-maintenance model at a peer failed on bad masters—which digital programs struggle because of data quality?",
             options: [
               "Predictive maintenance and OEE analytics.",
               "Procurement visibility across plants.",
@@ -1306,7 +1306,7 @@ const verticals = [
         questions: [
           {
             id: "hc-cdo-1",
-            text: "How do you ensure item and supplier masters stay aligned across EHR, ERP, and inventory systems?",
+            text: "After a recall exposed mismatched records, how do you keep item and supplier masters aligned across EHR, ERP, and inventory systems?",
             options: [
               "We run a governed hub that validates attributes and codes before changes propagate.",
               "We have periodic reconciliations but rely on teams to fix mismatches ad hoc.",
@@ -1369,7 +1369,7 @@ const verticals = [
         questions: [
           {
             id: "hc-supply-1",
-            text: "How do you stop buying the same item under multiple descriptions or vendors?",
+            text: "A hospital supply chain lead cut waste by standardizing descriptions—how do you stop buying the same item under multiple descriptions or vendors?",
             options: [
               "A governed catalog blocks duplicates before requisitions are approved.",
               "Buyers rely on experience to catch overlaps during PO creation.",
@@ -1432,7 +1432,7 @@ const verticals = [
         questions: [
           {
             id: "hc-eng-1",
-            text: "How do you track which devices or parts are affected when a recall notice arrives?",
+            text: "When a recall hits, how quickly can you track which devices or parts are affected across your fleet?",
             options: [
               "We have a centralized register that maps assets to parts and vendors.",
               "We pull reports from multiple systems and reconcile manually.",
@@ -1495,7 +1495,7 @@ const verticals = [
         questions: [
           {
             id: "hc-quality-1",
-            text: "What evidence do you provide to show item masters meet UDI or labeling requirements?",
+            text: "During audits, what evidence do you provide to prove item masters meet UDI or labeling requirements?",
             options: [
               "Governed attributes with clear approval history.",
               "We keep spreadsheets and screenshots from recent updates.",
@@ -1558,7 +1558,7 @@ const verticals = [
         questions: [
           {
             id: "hc-dig-1",
-            text: "Which digital programs are slowed most by data quality today?",
+            text: "A digital front-door pilot stalled on inconsistent masters—which digital programs are slowed most by data quality today?",
             options: [
               "Predictive analytics and virtual care reporting.",
               "Procurement visibility and spend analytics.",
@@ -1629,7 +1629,7 @@ const verticals = [
         questions: [
           {
             id: "retail-coo-1",
-            text: "How do you prevent duplicate or inconsistent SKUs across stores and eCommerce?",
+            text: "After a returns spike from bad SKUs, how do you prevent duplicate or inconsistent SKUs across stores and eCommerce?",
             options: [
               "We govern attributes centrally and block duplicates before listings go live.",
               "We reconcile feeds weekly and fix issues as they appear.",
@@ -1692,7 +1692,7 @@ const verticals = [
         questions: [
           {
             id: "retail-supply-1",
-            text: "How do you keep replenishment signals accurate when SKUs vary by channel or region?",
+            text: "A logistics leader cut stockouts by standardizing SKUs—how do you keep replenishment signals accurate when SKUs vary by channel or region?",
             options: [
               "We normalize SKUs and locations in one governed master before planning.",
               "We adjust forecasts manually when we notice discrepancies.",
@@ -1755,7 +1755,7 @@ const verticals = [
         questions: [
           {
             id: "retail-ecom-1",
-            text: "What causes the most returns or cart abandonment from a data standpoint?",
+            text: "When analyzing returns, what data issues cause the most cart abandonment or product returns?",
             options: [
               "Inaccurate or incomplete product attributes and images.",
               "Delivery estimates can be off during promotions.",
@@ -1818,7 +1818,7 @@ const verticals = [
         questions: [
           {
             id: "retail-inv-1",
-            text: "How do you keep forecasts accurate when item definitions differ by region or channel?",
+            text: "A planner missed forecasts due to mismatched definitions—how do you keep forecasts accurate when item definitions differ by region or channel?",
             options: [
               "We harmonize item definitions before planning and track variants explicitly.",
               "We adjust forecasts manually when we notice variances.",
@@ -1881,7 +1881,7 @@ const verticals = [
         questions: [
           {
             id: "retail-gov-1",
-            text: "How do you validate attributes before products sync to ERP and eCommerce?",
+            text: "After a bad sync broke listings, how do you validate attributes before products sync to ERP and eCommerce?",
             options: [
               "Automated validations with clear exception handling.",
               "We rely on periodic cleanups and user reports.",
@@ -1952,7 +1952,7 @@ const verticals = [
         questions: [
           {
             id: "fs-cdo-1",
-            text: "How do you maintain golden records for customers and products across core systems?",
+            text: "After a merger exposed duplicate customers, how do you maintain golden records for customers and products across core systems?",
             options: [
               "We run a governed hub with automated matching and approvals.",
               "We reconcile monthly and rely on data stewards.",
@@ -2015,7 +2015,7 @@ const verticals = [
         questions: [
           {
             id: "fs-risk-1",
-            text: "How do you ensure KYC/AML attributes are complete and validated?",
+            text: "When regulators raise KYC findings, how do you ensure KYC/AML attributes are complete and validated?",
             options: [
               "Automated validations with clear exception handling.",
               "Periodic reviews and manual sampling.",
@@ -2078,7 +2078,7 @@ const verticals = [
         questions: [
           {
             id: "fs-ops-1",
-            text: "Where do data issues slow claims or servicing the most?",
+            text: "A claims peer shaved cycle time by fixing master data—where do data issues slow claims or servicing the most?",
             options: [
               "Mismatched customer or policy data between systems.",
               "Occasional vendor data gaps but we manage.",
@@ -2141,7 +2141,7 @@ const verticals = [
         questions: [
           {
             id: "fs-treasury-1",
-            text: "How do you reconcile balances across systems when masters differ?",
+            text: "When product masters differ, how do you reconcile balances across systems without manual patching?",
             options: [
               "We trust a governed master that feeds consolidation.",
               "We run manual reconciliations each close.",
@@ -2204,7 +2204,7 @@ const verticals = [
         questions: [
           {
             id: "fs-digital-1",
-            text: "Which digital journeys suffer most from data quality today?",
+            text: "A channel leader saw drop-off from mismatched records—which digital journeys suffer most from data quality today?",
             options: [
               "Onboarding and personalized offers.",
               "Back-office reporting only.",
@@ -2735,10 +2735,10 @@ function formatOpeningQuestion(questionText, isFirstQuestion) {
   }
 
   const industryName = currentIndustry?.name || "this industry";
-  const personaLabel = currentPersona?.role || currentPersona?.name || "leader";
+  const personaLabel = currentPersona?.name || "peer";
   const focusPunch =
     (currentPersona?.focusAreas || [])[0] || "working capital and reliability";
-  const dramaticHook = `Recently, a ${personaLabel} in ${industryName} unlocked $10M by eliminating 10% duplicate stock tied to ${focusPunch}—`;
+  const dramaticHook = `Recently, a ${personaLabel} peer in ${industryName} unlocked $10M by eliminating 10% duplicate stock tied to ${focusPunch}.`;
 
   return ensureQuestion(`${dramaticHook} ${baseQuestion}`);
 }
