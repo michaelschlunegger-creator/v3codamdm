@@ -11,7 +11,7 @@ const verticals = [
         company: "HelioVista Energy",
         role: "Owns profitable growth and capital allocation.",
         shortDescription:
-          "Needs confidence that plant data is trustworthy so cash isn't frozen in duplicate or misclassified materials.",
+          "Needs confidence that plant data is trustworthy so cash is not frozen in duplicate or misclassified materials.",
         focusAreas: [
           "Working capital locked in redundant stock",
           "Visibility across sites and systems",
@@ -24,9 +24,9 @@ const verticals = [
             id: "ceo-cfo-1",
             text: "How do you currently measure the cash tied up in spare parts and project materials?",
             options: [
-              "Finance teams reconcile stock quarterly and adjust reserves if counts feel high.",
-              "We have a live dashboard that flags duplicates, so working capital is always visible.",
-              "Controllers guess based on historical spend because material masters are inconsistent.",
+              "Finance reconciles stock quarterly and adjusts reserves when counts look high.",
+              "We monitor a live dashboard that flags duplicates, so working capital stays visible.",
+              "Controllers rely on historical spend because material masters are inconsistent.",
             ],
             bestOptionIndex: 1,
             feedback: {
@@ -37,11 +37,11 @@ const verticals = [
           },
           {
             id: "ceo-cfo-2",
-            text: "When duplicate materials slip in, what downstream impact hurts you the most?",
+            text: "When duplicate materials slip into the catalog, what downstream impact hurts you the most?",
             options: [
               "Higher carrying costs and missed savings targets on procurement programs.",
-              "It only slows maintenance because techs can't find the right part description.",
-              "No real impact; we simply store more inventory to be safe.",
+              "Maintenance slows because technicians struggle to find the right description.",
+              "We just store more inventory to be safe, so there’s no perceived impact.",
             ],
             bestOptionIndex: 0,
             feedback: {
@@ -55,13 +55,13 @@ const verticals = [
             text: "What would you need to see in a 4-week pilot to greenlight funding?",
             options: [
               "A quantified forecast of cash released plus a plan to scale across refineries.",
-              "A few nice-to-have reports that show data quality trends over time.",
+              "A few reports that show data quality trends over time.",
               "Proof that engineering and maintenance teams can tolerate another tool in their stack.",
             ],
             bestOptionIndex: 0,
             feedback: {
               best: "Align the pilot on cash release and scale, then map CODA outputs directly to her investment criteria.",
-              weak: "Reports without financial linkage won't unlock budget. Reframe toward measurable KPIs.",
+              weak: "Reports without financial linkage will not unlock budget. Reframe toward measurable KPIs.",
               bad: "Tool tolerance misses the CFO's lens. Pivot to business outcomes and risk reduction.",
             },
           },
@@ -85,10 +85,10 @@ const verticals = [
         questions: [
           {
             id: "fin-cfo-1",
-            text: "Do you have consolidated visibility of material stock and vendor spend across all sites?",
+            text: "Do you have consolidated visibility into material stock and vendor spend across all sites?",
             options: [
-              "Yes, we consolidate and trust the numbers.",
-              "Partially—we reconcile across a few ERPs but it takes effort.",
+              "Yes—we consolidate and trust the numbers.",
+              "Partially—we reconcile across a few ERPs, but it takes effort.",
               "Each site runs its own data, so consolidation is painful.",
             ],
             bestOptionIndex: 0,
@@ -103,8 +103,8 @@ const verticals = [
             text: "How do you calculate the working capital you could release by cleansing duplicate or obsolete stock?",
             options: [
               "We model scenarios by category to see the cash impact quickly.",
-              "We have a rough estimate based on historical write-offs.",
-              "We don't calculate it—operations just carries the stock.",
+              "We carry a rough estimate based on historical write-offs.",
+              "We don’t calculate it—operations just carries the stock.",
             ],
             bestOptionIndex: 0,
             feedback: {
@@ -148,10 +148,10 @@ const verticals = [
         questions: [
           {
             id: "cio-1",
-            text: "How do you manage your material master across SAP, Maximo, and any CMMS instances?",
+            text: "How do you manage material masters across SAP, Maximo, and any CMMS instances?",
             options: [
               "Everything is governed centrally through SAP.",
-              "We coordinate between SAP and Maximo but rely on people to sync.",
+              "We coordinate between SAP and Maximo but rely on people to keep them in sync.",
               "Each site handles its own masters with little coordination.",
             ],
             bestOptionIndex: 0,
@@ -165,24 +165,24 @@ const verticals = [
             id: "cio-2",
             text: "Who approves new master data and ensures attributes are consistent?",
             options: [
-              "Clear RACI with IT owning standards and business validating content.",
-              "Shared, but it depends on who is available that week.",
-              "No defined owner; it just happens during projects.",
+              "We have a clear RACI with IT owning standards and the business validating content.",
+              "Ownership is shared, but it depends on who is available that week.",
+              "There is no defined owner; it just happens during projects.",
             ],
             bestOptionIndex: 0,
             feedback: {
               best: "Great. CODA can codify that RACI and provide the workflow evidence leadership expects.",
               weak: "Ad-hoc ownership risks drift. Position CODA to standardize approvals and SLA tracking.",
-              bad: "No ownership means chaos. CODA brings a governed flow that won't slow delivery.",
+              bad: "No ownership means chaos. CODA brings a governed flow that will not slow delivery.",
             },
           },
           {
             id: "cio-3",
             text: "How do you detect and resolve duplicates before they hit downstream systems?",
             options: [
-              "Automated validations at creation with clear exception handling.",
+              "We run automated validations at creation with clear exception handling.",
               "We rely on periodic cleanups or user reports to find duplicates.",
-              "We rarely detect them—it's not a priority.",
+              "We rarely detect them—it is not a priority.",
             ],
             bestOptionIndex: 0,
             feedback: {
@@ -211,11 +211,11 @@ const verticals = [
         questions: [
           {
             id: "ops-1",
-            text: "How do you keep maintenance teams confident the part they pick matches the work order?",
+            text: "How do you keep maintenance teams confident that the part they pick matches the work order?",
             options: [
               "Supervisors rely on tribal knowledge and photos in chat groups to confirm parts.",
               "We run a standardized catalog that enforces descriptions before anything is issued.",
-              "Techs swap parts if they look close enough and deal with issues later.",
+              "Technicians swap parts if they look close enough and deal with issues later.",
             ],
             bestOptionIndex: 1,
             feedback: {
@@ -226,7 +226,7 @@ const verticals = [
           },
           {
             id: "ops-2",
-            text: "What happens when a bill of materials includes a material ID that doesn't exist anymore?",
+            text: "What happens when a bill of materials includes a material ID that no longer exists?",
             options: [
               "Work stops while planners scramble to find an alternative.",
               "We have an automated cross-reference process that points to the right replacement.",
@@ -243,8 +243,8 @@ const verticals = [
             id: "ops-3",
             text: "How do you decide the right safety stock when specs differ slightly across plants?",
             options: [
-              "We set conservative levels because we don't trust the descriptions.",
-              "We normalize specs and share one source of truth, so buffers are lean.",
+              "We set conservative levels because we don’t fully trust the descriptions.",
+              "We normalize specs and share one source of truth, so buffers stay lean.",
               "Each plant picks its own policy, and we revisit it every few years.",
             ],
             bestOptionIndex: 1,
@@ -274,11 +274,11 @@ const verticals = [
         questions: [
           {
             id: "plant-1",
-            text: "When you plan maintenance, does the team rely more on system data or experienced individuals?",
+            text: "When you plan maintenance, does the team rely more on system data or on experienced individuals?",
             options: [
               "The system is trusted for planning and picking.",
               "We mix system data with tribal knowledge depending on the shift.",
-              "Mostly experience—system data isn't reliable enough.",
+              "Mostly experience—system data isn’t reliable enough.",
             ],
             bestOptionIndex: 0,
             feedback: {
@@ -356,7 +356,7 @@ const verticals = [
             options: [
               "Regular reconciliations and governed change control.",
               "Periodic reviews when time allows.",
-              "We assume BOMs are right unless there's a problem.",
+              "We assume BOMs are right unless there is a problem.",
             ],
             bestOptionIndex: 0,
             feedback: {
@@ -419,7 +419,7 @@ const verticals = [
             options: [
               "Unclear descriptions lead buyers to order items we already own.",
               "We intentionally overbuy to avoid stockouts during outages.",
-              "Suppliers ship alternates we didn't approve and we shelve them.",
+              "Suppliers ship alternates we did not approve and we shelve them.",
             ],
             bestOptionIndex: 0,
             feedback: {
@@ -467,7 +467,7 @@ const verticals = [
             options: [
               "We rely on buyer experience to spot duplicates during PO creation.",
               "We have a governed catalog that blocks duplicates before requisitions are approved.",
-              "We don't worry much—vendors usually correct us if we order wrong.",
+              "We do not worry much—vendors usually correct us if we order wrong.",
             ],
             bestOptionIndex: 1,
             feedback: {
@@ -545,7 +545,7 @@ const verticals = [
             options: [
               "We compare normalized specs and price files regularly.",
               "We review a few key items manually when renewing contracts.",
-              "We rely on sites to negotiate locally and assume it's optimized.",
+              "We rely on sites to negotiate locally and assume it is optimized.",
             ],
             bestOptionIndex: 0,
             feedback: {
@@ -578,7 +578,7 @@ const verticals = [
         company: "HelioVista Energy",
         role: "Drives automation, IoT, and analytics programs that rely on clean data.",
         shortDescription:
-          "Links digital success to standardized master data so initiatives don't stall from inconsistent records.",
+          "Links digital success to standardized master data so initiatives do not stall from inconsistent records.",
         focusAreas: [
           "Data readiness for digital and automation use cases",
           "Cross-site standards that enable scaling",
@@ -623,7 +623,7 @@ const verticals = [
             options: [
               "Leading indicators like rising exceptions or model drift.",
               "We notice when users complain about bad suggestions.",
-              "We don't track it—the team just fixes issues as they appear.",
+              "We do not track it—the team just fixes issues as they appear.",
             ],
             bestOptionIndex: 0,
             feedback: {
