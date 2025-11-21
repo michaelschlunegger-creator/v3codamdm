@@ -28,12 +28,9 @@ const verticals = [
             ],
             bestOptionIndex: 1,
             feedback: {
-              best:
-                "A live view means we can plug CODA into existing controls and prove incremental cash unlocks quickly.",
-              weak:
-                "Quarterly reconciliation is slow; tie the lag to cash risk and propose a PoC that validates live data feeds.",
-              bad:
-                "Guesswork highlights the data gap. Position CODA as the fastest path to measurable, audit-ready visibility.",
+              best: "A live view means we can plug CODA into existing controls and prove incremental cash unlocks quickly.",
+              weak: "Quarterly reconciliation is slow; tie the lag to cash risk and propose a PoC that validates live data feeds.",
+              bad: "Guesswork highlights the data gap. Position CODA as the fastest path to measurable, audit-ready visibility.",
             },
           },
           {
@@ -46,12 +43,9 @@ const verticals = [
             ],
             bestOptionIndex: 0,
             feedback: {
-              best:
-                "Connect CODA's deduplication to working-capital targets and procurement savings the C-suite tracks.",
-              weak:
-                "Maintenance friction is real, but link it back to financial KPIs so the CFO sees the value path.",
-              bad:
-                "Storing more inventory signals wasted cash. Use this to highlight how clean masters reduce buffers.",
+              best: "Connect CODA's deduplication to working-capital targets and procurement savings the C-suite tracks.",
+              weak: "Maintenance friction is real, but link it back to financial KPIs so the CFO sees the value path.",
+              bad: "Storing more inventory signals wasted cash. Use this to highlight how clean masters reduce buffers.",
             },
           },
           {
@@ -64,12 +58,9 @@ const verticals = [
             ],
             bestOptionIndex: 0,
             feedback: {
-              best:
-                "Align the pilot on cash release and scale, then map CODA outputs directly to her investment criteria.",
-              weak:
-                "Reports without financial linkage won't unlock budget. Reframe toward measurable KPIs.",
-              bad:
-                "Tool tolerance misses the CFO's lens. Pivot to business outcomes and risk reduction.",
+              best: "Align the pilot on cash release and scale, then map CODA outputs directly to her investment criteria.",
+              weak: "Reports without financial linkage won't unlock budget. Reframe toward measurable KPIs.",
+              bad: "Tool tolerance misses the CFO's lens. Pivot to business outcomes and risk reduction.",
             },
           },
         ],
@@ -98,12 +89,9 @@ const verticals = [
             ],
             bestOptionIndex: 0,
             feedback: {
-              best:
-                "Great. CODA can validate that trusted view and surface hidden duplicates without disrupting reporting.",
-              weak:
-                "Partial visibility is costly time. Offer CODA to standardize attributes and automate roll-ups.",
-              bad:
-                "Fragmentation screams risk. Use CODA to create a single, auditable baseline before the next close.",
+              best: "Great. CODA can validate that trusted view and surface hidden duplicates without disrupting reporting.",
+              weak: "Partial visibility is costly time. Offer CODA to standardize attributes and automate roll-ups.",
+              bad: "Fragmentation screams risk. Use CODA to create a single, auditable baseline before the next close.",
             },
           },
           {
@@ -116,12 +104,9 @@ const verticals = [
             ],
             bestOptionIndex: 0,
             feedback: {
-              best:
-                "Perfect fit. CODA can feed that model with real duplication rates to validate the release.",
-              weak:
-                "A rough estimate is a starting point. Offer a data-backed assessment to sharpen the forecast.",
-              bad:
-                "No calculation means hidden cash. Frame CODA as the fastest way to prove and capture the upside.",
+              best: "Perfect fit. CODA can feed that model with real duplication rates to validate the release.",
+              weak: "A rough estimate is a starting point. Offer a data-backed assessment to sharpen the forecast.",
+              bad: "No calculation means hidden cash. Frame CODA as the fastest way to prove and capture the upside.",
             },
           },
           {
@@ -134,12 +119,9 @@ const verticals = [
             ],
             bestOptionIndex: 0,
             feedback: {
-              best:
-                "Traceability pairs perfectly with CODA's governance. It keeps approvals and lineage audit-ready.",
-              weak:
-                "Manual trails consume time. CODA can centralize approvals and make evidence collection trivial.",
-              bad:
-                "Deferring to operations risks findings. Position CODA as the defensible system of record.",
+              best: "Traceability pairs perfectly with CODA's governance. It keeps approvals and lineage audit-ready.",
+              weak: "Manual trails consume time. CODA can centralize approvals and make evidence collection trivial.",
+              bad: "Deferring to operations risks findings. Position CODA as the defensible system of record.",
             },
           },
         ],
@@ -168,12 +150,9 @@ const verticals = [
             ],
             bestOptionIndex: 0,
             feedback: {
-              best:
-                "Central governance is strong. CODA can plug in to enforce standards and block duplicates before they spread.",
-              weak:
-                "Human syncing creates drift. Offer CODA to automate cross-system checks and keep catalogs aligned.",
-              bad:
-                "Decentralization breeds duplication. Use this to justify a controlled hub powered by CODA.",
+              best: "Central governance is strong. CODA can plug in to enforce standards and block duplicates before they spread.",
+              weak: "Human syncing creates drift. Offer CODA to automate cross-system checks and keep catalogs aligned.",
+              bad: "Decentralization breeds duplication. Use this to justify a controlled hub powered by CODA.",
             },
           },
           {
@@ -186,12 +165,9 @@ const verticals = [
             ],
             bestOptionIndex: 0,
             feedback: {
-              best:
-                "Great. CODA can codify that RACI and provide the workflow evidence leadership expects.",
-              weak:
-                "Ad-hoc ownership risks drift. Position CODA to standardize approvals and SLA tracking.",
-              bad:
-                "No ownership means chaos. CODA brings a governed flow that won't slow delivery.",
+              best: "Great. CODA can codify that RACI and provide the workflow evidence leadership expects.",
+              weak: "Ad-hoc ownership risks drift. Position CODA to standardize approvals and SLA tracking.",
+              bad: "No ownership means chaos. CODA brings a governed flow that won't slow delivery.",
             },
           },
           {
@@ -204,12 +180,9 @@ const verticals = [
             ],
             bestOptionIndex: 0,
             feedback: {
-              best:
-                "CODA can amplify that automation and give IT confidence that integrations stay clean.",
-              weak:
-                "Periodic cleanups leave leakage. CODA adds continuous checks with low effort.",
-              bad:
-                "Lack of priority equals hidden risk. Use CODA to show quick wins without heavy lift.",
+              best: "CODA can amplify that automation and give IT confidence that integrations stay clean.",
+              weak: "Periodic cleanups leave leakage. CODA adds continuous checks with low effort.",
+              bad: "Lack of priority equals hidden risk. Use CODA to show quick wins without heavy lift.",
             },
           },
         ],
@@ -238,12 +211,9 @@ const verticals = [
             ],
             bestOptionIndex: 1,
             feedback: {
-              best:
-                "Standardized catalogs pair perfectly with CODA's governed descriptions to keep jobs first-time-right.",
-              weak:
-                "Tribal knowledge is fragile. CODA can capture that detail and standardize it across shifts.",
-              bad:
-                "Swapping parts risks safety and downtime. Position CODA as the guardrail that prevents mismatches.",
+              best: "Standardized catalogs pair perfectly with CODA's governed descriptions to keep jobs first-time-right.",
+              weak: "Tribal knowledge is fragile. CODA can capture that detail and standardize it across shifts.",
+              bad: "Swapping parts risks safety and downtime. Position CODA as the guardrail that prevents mismatches.",
             },
           },
           {
@@ -256,12 +226,9 @@ const verticals = [
             ],
             bestOptionIndex: 1,
             feedback: {
-              best:
-                "Great baseline. CODA can enrich replacements faster and keep BOMs aligned as vendors change.",
-              weak:
-                "Scramble time is the pain. Quantify delays and show how CODA keeps BOMs synchronized.",
-              bad:
-                "Ignoring broken IDs risks outage delays. Use this to stress proactive data quality before turnarounds.",
+              best: "Great baseline. CODA can enrich replacements faster and keep BOMs aligned as vendors change.",
+              weak: "Scramble time is the pain. Quantify delays and show how CODA keeps BOMs synchronized.",
+              bad: "Ignoring broken IDs risks outage delays. Use this to stress proactive data quality before turnarounds.",
             },
           },
           {
@@ -274,12 +241,9 @@ const verticals = [
             ],
             bestOptionIndex: 1,
             feedback: {
-              best:
-                "Lean buffers with shared specs aligns with CODA's normalization. Build on this to tighten turnarounds.",
-              weak:
-                "Conservative stock is costly. CODA's deduplication can cut buffers without risking uptime.",
-              bad:
-                "Infrequent reviews hide risk. Offer CODA as a continuous guardrail for spec drift.",
+              best: "Lean buffers with shared specs aligns with CODA's normalization. Build on this to tighten turnarounds.",
+              weak: "Conservative stock is costly. CODA's deduplication can cut buffers without risking uptime.",
+              bad: "Infrequent reviews hide risk. Offer CODA as a continuous guardrail for spec drift.",
             },
           },
         ],
@@ -308,12 +272,9 @@ const verticals = [
             ],
             bestOptionIndex: 0,
             feedback: {
-              best:
-                "Great. CODA can keep that trust high by preventing spec drift across sites.",
-              weak:
-                "Mixing signals risk. CODA can capture expert nuance and standardize it for everyone.",
-              bad:
-                "Experience-only is fragile. Position CODA as the way to protect uptime when key people are out.",
+              best: "Great. CODA can keep that trust high by preventing spec drift across sites.",
+              weak: "Mixing signals risk. CODA can capture expert nuance and standardize it for everyone.",
+              bad: "Experience-only is fragile. Position CODA as the way to protect uptime when key people are out.",
             },
           },
           {
@@ -326,12 +287,9 @@ const verticals = [
             ],
             bestOptionIndex: 0,
             feedback: {
-              best:
-                "Proactive validation is strong. CODA can automate those checks and keep outages on track.",
-              weak:
-                "Scrambling is costly. Use CODA to pre-approve alternates and cut outage risk.",
-              bad:
-                "Frequent improvisation screams risk. CODA enforces clarity so windows stay on schedule.",
+              best: "Proactive validation is strong. CODA can automate those checks and keep outages on track.",
+              weak: "Scrambling is costly. Use CODA to pre-approve alternates and cut outage risk.",
+              bad: "Frequent improvisation screams risk. CODA enforces clarity so windows stay on schedule.",
             },
           },
           {
@@ -344,12 +302,9 @@ const verticals = [
             ],
             bestOptionIndex: 0,
             feedback: {
-              best:
-                "Playbooks plus CODA keep operations resilient and reduce single points of failure.",
-              weak:
-                "Partial coverage is risky. CODA can encode those tricky details into standards everyone follows.",
-              bad:
-                "Waiting stalls production. Position CODA as the safety net for continuity.",
+              best: "Playbooks plus CODA keep operations resilient and reduce single points of failure.",
+              weak: "Partial coverage is risky. CODA can encode those tricky details into standards everyone follows.",
+              bad: "Waiting stalls production. Position CODA as the safety net for continuity.",
             },
           },
         ],
@@ -378,12 +333,9 @@ const verticals = [
             ],
             bestOptionIndex: 0,
             feedback: {
-              best:
-                "Centralization is a strong base. CODA can keep specs synchronized and audit-ready.",
-              weak:
-                "Partial control invites drift. CODA aligns site data with engineering standards automatically.",
-              bad:
-                "Site-by-site control risks failures. Use CODA to harmonize and enforce standards quickly.",
+              best: "Centralization is a strong base. CODA can keep specs synchronized and audit-ready.",
+              weak: "Partial control invites drift. CODA aligns site data with engineering standards automatically.",
+              bad: "Site-by-site control risks failures. Use CODA to harmonize and enforce standards quickly.",
             },
           },
           {
@@ -396,12 +348,9 @@ const verticals = [
             ],
             bestOptionIndex: 0,
             feedback: {
-              best:
-                "Governed change control pairs well with CODA to keep BOMs validated as vendors change.",
-              weak:
-                "Ad-hoc reviews miss issues. CODA provides continuous checks and recommendations.",
-              bad:
-                "Assumptions hide risk. CODA can surface mismatches before they cause downtime.",
+              best: "Governed change control pairs well with CODA to keep BOMs validated as vendors change.",
+              weak: "Ad-hoc reviews miss issues. CODA provides continuous checks and recommendations.",
+              bad: "Assumptions hide risk. CODA can surface mismatches before they cause downtime.",
             },
           },
           {
@@ -414,12 +363,9 @@ const verticals = [
             ],
             bestOptionIndex: 0,
             feedback: {
-              best:
-                "Harmonization is ideal. CODA keeps that decision visible and prevents drift.",
-              weak:
-                "Case-by-case decisions slow you down. CODA gives data to accelerate consensus.",
-              bad:
-                "Site autonomy dilutes integrity. CODA enforces the chosen standard across the fleet.",
+              best: "Harmonization is ideal. CODA keeps that decision visible and prevents drift.",
+              weak: "Case-by-case decisions slow you down. CODA gives data to accelerate consensus.",
+              bad: "Site autonomy dilutes integrity. CODA enforces the chosen standard across the fleet.",
             },
           },
         ],
@@ -448,12 +394,9 @@ const verticals = [
             ],
             bestOptionIndex: 1,
             feedback: {
-              best:
-                "Consistency is a strength. CODA can keep it that way as new vendors and parts enter the catalog.",
-              weak:
-                "Manual merges cost time. CODA can automate deduping so counts stay trustworthy.",
-              bad:
-                "Reactive discovery is risky. Position CODA as the proactive net that catches issues before audits.",
+              best: "Consistency is a strength. CODA can keep it that way as new vendors and parts enter the catalog.",
+              weak: "Manual merges cost time. CODA can automate deduping so counts stay trustworthy.",
+              bad: "Reactive discovery is risky. Position CODA as the proactive net that catches issues before audits.",
             },
           },
           {
@@ -466,12 +409,9 @@ const verticals = [
             ],
             bestOptionIndex: 0,
             feedback: {
-              best:
-                "Great opening. CODA's standardized descriptions can prevent reorders and shrink slow movers quickly.",
-              weak:
-                "Overbuying is understandable. Show how CODA lowers risk so buffers can safely shrink.",
-              bad:
-                "Unapproved alternates highlight control gaps. CODA's governance can block bad receipts.",
+              best: "Great opening. CODA's standardized descriptions can prevent reorders and shrink slow movers quickly.",
+              weak: "Overbuying is understandable. Show how CODA lowers risk so buffers can safely shrink.",
+              bad: "Unapproved alternates highlight control gaps. CODA's governance can block bad receipts.",
             },
           },
           {
@@ -484,12 +424,9 @@ const verticals = [
             ],
             bestOptionIndex: 1,
             feedback: {
-              best:
-                "Preventive controls pair well with CODA's validations to keep records clean without heavy effort.",
-              weak:
-                "Manual corrections are expensive. CODA can automate validation and surface mismatches sooner.",
-              bad:
-                "Annual cleanups hide problems. CODA brings continuous accuracy so audits are boring.",
+              best: "Preventive controls pair well with CODA's validations to keep records clean without heavy effort.",
+              weak: "Manual corrections are expensive. CODA can automate validation and surface mismatches sooner.",
+              bad: "Annual cleanups hide problems. CODA brings continuous accuracy so audits are boring.",
             },
           },
         ],
@@ -518,12 +455,9 @@ const verticals = [
             ],
             bestOptionIndex: 1,
             feedback: {
-              best:
-                "Governed catalogs align with CODA's strengths. Position rapid onboarding of vendor data to keep it current.",
-              weak:
-                "Human checks miss patterns. CODA can surface duplicates instantly so savings aren't left on the table.",
-              bad:
-                "Relying on vendors risks price creep. CODA gives procurement control and leverage.",
+              best: "Governed catalogs align with CODA's strengths. Position rapid onboarding of vendor data to keep it current.",
+              weak: "Human checks miss patterns. CODA can surface duplicates instantly so savings aren't left on the table.",
+              bad: "Relying on vendors risks price creep. CODA gives procurement control and leverage.",
             },
           },
           {
@@ -536,12 +470,9 @@ const verticals = [
             ],
             bestOptionIndex: 1,
             feedback: {
-              best:
-                "Templates are a solid base. CODA can prefill attributes and validate against existing items to go faster.",
-              weak:
-                "Email loops are costly. Show how CODA structures the intake and proposes matches automatically.",
-              bad:
-                "Defaulting to the usual vendor hides options. Use CODA to encourage competitive sourcing with clean data.",
+              best: "Templates are a solid base. CODA can prefill attributes and validate against existing items to go faster.",
+              weak: "Email loops are costly. Show how CODA structures the intake and proposes matches automatically.",
+              bad: "Defaulting to the usual vendor hides options. Use CODA to encourage competitive sourcing with clean data.",
             },
           },
           {
@@ -554,12 +485,9 @@ const verticals = [
             ],
             bestOptionIndex: 0,
             feedback: {
-              best:
-                "Normalized spend is ideal. CODA's standardized specs give you the confidence to consolidate aggressively.",
-              weak:
-                "High spend is a start, but CODA can reveal hidden overlaps that make negotiations stronger.",
-              bad:
-                "Waiting for renewals leaves value on the table. CODA enables proactive category strategies.",
+              best: "Normalized spend is ideal. CODA's standardized specs give you the confidence to consolidate aggressively.",
+              weak: "High spend is a start, but CODA can reveal hidden overlaps that make negotiations stronger.",
+              bad: "Waiting for renewals leaves value on the table. CODA enables proactive category strategies.",
             },
           },
         ],
@@ -588,12 +516,9 @@ const verticals = [
             ],
             bestOptionIndex: 0,
             feedback: {
-              best:
-                "Centralization gives leverage. CODA can keep it clean and highlight overlap for faster negotiations.",
-              weak:
-                "Partial control hides leakage. CODA will normalize remaining items to reveal savings.",
-              bad:
-                "Decentralized data hurts strategy. Position CODA as the hub that creates a single sourcing view.",
+              best: "Centralization gives leverage. CODA can keep it clean and highlight overlap for faster negotiations.",
+              weak: "Partial control hides leakage. CODA will normalize remaining items to reveal savings.",
+              bad: "Decentralized data hurts strategy. Position CODA as the hub that creates a single sourcing view.",
             },
           },
           {
@@ -606,12 +531,9 @@ const verticals = [
             ],
             bestOptionIndex: 0,
             feedback: {
-              best:
-                "Excellent. CODA can automate those comparisons and surface hidden variances instantly.",
-              weak:
-                "Manual spot checks miss value. CODA scales the analysis across the catalog.",
-              bad:
-                "Assuming optimization leaves savings on the table. Use CODA to prove the gap quickly.",
+              best: "Excellent. CODA can automate those comparisons and surface hidden variances instantly.",
+              weak: "Manual spot checks miss value. CODA scales the analysis across the catalog.",
+              bad: "Assuming optimization leaves savings on the table. Use CODA to prove the gap quickly.",
             },
           },
           {
@@ -624,12 +546,9 @@ const verticals = [
             ],
             bestOptionIndex: 0,
             feedback: {
-              best:
-                "Great. CODA keeps specs audit-ready so negotiation packs stay credible.",
-              weak:
-                "Pre-event cleanup is slow. CODA keeps specs clean continuously so you negotiate faster.",
-              bad:
-                "Relying on suppliers erodes leverage. Position CODA as the data backbone for tough negotiations.",
+              best: "Great. CODA keeps specs audit-ready so negotiation packs stay credible.",
+              weak: "Pre-event cleanup is slow. CODA keeps specs clean continuously so you negotiate faster.",
+              bad: "Relying on suppliers erodes leverage. Position CODA as the data backbone for tough negotiations.",
             },
           },
         ],
@@ -658,12 +577,9 @@ const verticals = [
             ],
             bestOptionIndex: 0,
             feedback: {
-              best:
-                "Strong discipline. CODA can accelerate those checks and keep standards enforced as you scale.",
-              weak:
-                "Variation by site is common. CODA harmonizes standards so use cases scale consistently.",
-              bad:
-                "Assumptions stall programs. Position CODA as the data readiness layer for your roadmap.",
+              best: "Strong discipline. CODA can accelerate those checks and keep standards enforced as you scale.",
+              weak: "Variation by site is common. CODA harmonizes standards so use cases scale consistently.",
+              bad: "Assumptions stall programs. Position CODA as the data readiness layer for your roadmap.",
             },
           },
           {
@@ -676,12 +592,9 @@ const verticals = [
             ],
             bestOptionIndex: 0,
             feedback: {
-              best:
-                "Consistency is gold. CODA keeps that taxonomy synchronized as new data arrives.",
-              weak:
-                "Manual mapping wastes time. CODA automates harmonization so rollouts stay fast.",
-              bad:
-                "Custom work per site kills scale. CODA standardizes the data fabric to unblock deployments.",
+              best: "Consistency is gold. CODA keeps that taxonomy synchronized as new data arrives.",
+              weak: "Manual mapping wastes time. CODA automates harmonization so rollouts stay fast.",
+              bad: "Custom work per site kills scale. CODA standardizes the data fabric to unblock deployments.",
             },
           },
           {
@@ -694,12 +607,9 @@ const verticals = [
             ],
             bestOptionIndex: 0,
             feedback: {
-              best:
-                "Great. CODA can feed those indicators with real-time quality metrics tied to the use case.",
-              weak:
-                "User complaints are lagging. CODA surfaces quality risk before adoption drops.",
-              bad:
-                "No signal equals surprises. CODA establishes the monitoring layer you need to scale.",
+              best: "Great. CODA can feed those indicators with real-time quality metrics tied to the use case.",
+              weak: "User complaints are lagging. CODA surfaces quality risk before adoption drops.",
+              bad: "No signal equals surprises. CODA establishes the monitoring layer you need to scale.",
             },
           },
         ],
@@ -709,7 +619,8 @@ const verticals = [
   {
     id: "utilities",
     name: "Utilities",
-    description: "Regulated grid and generation operators balancing reliability with modernization.",
+    description:
+      "Regulated grid and generation operators balancing reliability with modernization.",
     personas: [
       {
         id: "utilityExec",
@@ -735,12 +646,9 @@ const verticals = [
             ],
             bestOptionIndex: 1,
             feedback: {
-              best:
-                "Great—CODA can feed those live rates with audit-ready lineage to strengthen the filing.",
-              weak:
-                "Buffers hide cash. Use CODA to replace estimates with data-backed visibility before the next filing.",
-              bad:
-                "Annual true-ups risk regulator pushback. Position CODA as the control that keeps capital plans defensible.",
+              best: "Great—CODA can feed those live rates with audit-ready lineage to strengthen the filing.",
+              weak: "Buffers hide cash. Use CODA to replace estimates with data-backed visibility before the next filing.",
+              bad: "Annual true-ups risk regulator pushback. Position CODA as the control that keeps capital plans defensible.",
             },
           },
           {
@@ -753,12 +661,9 @@ const verticals = [
             ],
             bestOptionIndex: 0,
             feedback: {
-              best:
-                "Perfect fit. CODA can centralize that history and keep it ready for discovery.",
-              weak:
-                "Manual prep is risky. CODA reduces scramble time and increases confidence.",
-              bad:
-                "OEM docs alone won’t fly. Use CODA to show proactive governance.",
+              best: "Perfect fit. CODA can centralize that history and keep it ready for discovery.",
+              weak: "Manual prep is risky. CODA reduces scramble time and increases confidence.",
+              bad: "OEM docs alone won’t fly. Use CODA to show proactive governance.",
             },
           },
           {
@@ -771,12 +676,9 @@ const verticals = [
             ],
             bestOptionIndex: 0,
             feedback: {
-              best:
-                "Align the pilot to cash and governance outcomes, then map CODA outputs directly to capital planning.",
-              weak:
-                "Reports alone won’t shift budgets. Anchor on measurable release and compliance strength.",
-              bad:
-                "Integrations help, but lead with financial and regulatory wins.",
+              best: "Align the pilot to cash and governance outcomes, then map CODA outputs directly to capital planning.",
+              weak: "Reports alone won’t shift budgets. Anchor on measurable release and compliance strength.",
+              bad: "Integrations help, but lead with financial and regulatory wins.",
             },
           },
         ],
@@ -805,12 +707,9 @@ const verticals = [
             ],
             bestOptionIndex: 1,
             feedback: {
-              best:
-                "CODA reinforces those standards and prevents drift as suppliers change.",
-              weak:
-                "Tribal knowledge is fragile. CODA can codify it so every crew benefits.",
-              bad:
-                "Overstocking trucks is costly. CODA keeps picks precise and efficient.",
+              best: "CODA reinforces those standards and prevents drift as suppliers change.",
+              weak: "Tribal knowledge is fragile. CODA can codify it so every crew benefits.",
+              bad: "Overstocking trucks is costly. CODA keeps picks precise and efficient.",
             },
           },
           {
@@ -823,12 +722,9 @@ const verticals = [
             ],
             bestOptionIndex: 1,
             feedback: {
-              best:
-                "CODA can keep those alternates current so crews move fast with confidence.",
-              weak:
-                "Hunting wastes time. CODA synchronizes BOMs and alternates automatically.",
-              bad:
-                "Improvisation creates risk. Use CODA to enforce safe, approved choices.",
+              best: "CODA can keep those alternates current so crews move fast with confidence.",
+              weak: "Hunting wastes time. CODA synchronizes BOMs and alternates automatically.",
+              bad: "Improvisation creates risk. Use CODA to enforce safe, approved choices.",
             },
           },
           {
@@ -841,12 +737,9 @@ const verticals = [
             ],
             bestOptionIndex: 1,
             feedback: {
-              best:
-                "Harmonized specs pair with CODA to keep buffers lean without risking uptime.",
-              weak:
-                "Overstocking is costly. CODA’s deduplication shrinks buffers safely.",
-              bad:
-                "Guesswork hides risk. CODA provides a governed baseline to plan from.",
+              best: "Harmonized specs pair with CODA to keep buffers lean without risking uptime.",
+              weak: "Overstocking is costly. CODA’s deduplication shrinks buffers safely.",
+              bad: "Guesswork hides risk. CODA provides a governed baseline to plan from.",
             },
           },
         ],
@@ -875,12 +768,9 @@ const verticals = [
             ],
             bestOptionIndex: 1,
             feedback: {
-              best:
-                "CODA keeps that catalog current with vendor data so duplicates stay out.",
-              weak:
-                "Human checks miss patterns. CODA surfaces overlaps instantly.",
-              bad:
-                "Relying on vendors erodes leverage. CODA restores control.",
+              best: "CODA keeps that catalog current with vendor data so duplicates stay out.",
+              weak: "Human checks miss patterns. CODA surfaces overlaps instantly.",
+              bad: "Relying on vendors erodes leverage. CODA restores control.",
             },
           },
           {
@@ -893,12 +783,9 @@ const verticals = [
             ],
             bestOptionIndex: 1,
             feedback: {
-              best:
-                "CODA can prefill and validate attributes to speed intake further.",
-              weak:
-                "Email loops cost time. CODA structures the intake and proposes matches.",
-              bad:
-                "Defaulting to one vendor hides value. CODA enables competitive sourcing fast.",
+              best: "CODA can prefill and validate attributes to speed intake further.",
+              weak: "Email loops cost time. CODA structures the intake and proposes matches.",
+              bad: "Defaulting to one vendor hides value. CODA enables competitive sourcing fast.",
             },
           },
           {
@@ -911,12 +798,9 @@ const verticals = [
             ],
             bestOptionIndex: 0,
             feedback: {
-              best:
-                "CODA feeds that normalization so you can negotiate confidently.",
-              weak:
-                "High spend is a start; CODA reveals hidden overlaps.",
-              bad:
-                "Waiting leaves money on the table. CODA enables proactive strategy.",
+              best: "CODA feeds that normalization so you can negotiate confidently.",
+              weak: "High spend is a start; CODA reveals hidden overlaps.",
+              bad: "Waiting leaves money on the table. CODA enables proactive strategy.",
             },
           },
         ],
@@ -945,12 +829,9 @@ const verticals = [
             ],
             bestOptionIndex: 0,
             feedback: {
-              best:
-                "CODA keeps that register synchronized with material masters.",
-              weak:
-                "Partial control risks drift. CODA standardizes remaining regions quickly.",
-              bad:
-                "Decentralization increases failure risk. CODA creates a governed baseline.",
+              best: "CODA keeps that register synchronized with material masters.",
+              weak: "Partial control risks drift. CODA standardizes remaining regions quickly.",
+              bad: "Decentralization increases failure risk. CODA creates a governed baseline.",
             },
           },
           {
@@ -963,12 +844,9 @@ const verticals = [
             ],
             bestOptionIndex: 0,
             feedback: {
-              best:
-                "CODA can automate validations and recommendations between cycles.",
-              weak:
-                "Ad-hoc updates miss issues. CODA provides continuous checks.",
-              bad:
-                "Assumptions hide risk. CODA surfaces mismatches early.",
+              best: "CODA can automate validations and recommendations between cycles.",
+              weak: "Ad-hoc updates miss issues. CODA provides continuous checks.",
+              bad: "Assumptions hide risk. CODA surfaces mismatches early.",
             },
           },
           {
@@ -981,12 +859,9 @@ const verticals = [
             ],
             bestOptionIndex: 0,
             feedback: {
-              best:
-                "CODA keeps that decision visible and prevents drift.",
-              weak:
-                "Case-by-case slows you down. CODA accelerates consensus with data.",
-              bad:
-                "Autonomy dilutes integrity. CODA enforces the chosen standard.",
+              best: "CODA keeps that decision visible and prevents drift.",
+              weak: "Case-by-case slows you down. CODA accelerates consensus with data.",
+              bad: "Autonomy dilutes integrity. CODA enforces the chosen standard.",
             },
           },
         ],
@@ -1015,12 +890,9 @@ const verticals = [
             ],
             bestOptionIndex: 0,
             feedback: {
-              best:
-                "Great—tie CODA cleansing directly to automation and reliability wins.",
-              weak:
-                "Visibility matters, but connect it back to digital KPIs.",
-              bad:
-                "Issues surface later. Use CODA to prove readiness before scaling.",
+              best: "Great—tie CODA cleansing directly to automation and reliability wins.",
+              weak: "Visibility matters, but connect it back to digital KPIs.",
+              bad: "Issues surface later. Use CODA to prove readiness before scaling.",
             },
           },
           {
@@ -1033,12 +905,9 @@ const verticals = [
             ],
             bestOptionIndex: 0,
             feedback: {
-              best:
-                "CODA can feed those metrics and keep them moving in the right direction.",
-              weak:
-                "Spot checks are reactive. Offer a CODA dashboard to make progress visible.",
-              bad:
-                "SLAs alone hide risk. CODA provides transparency and control.",
+              best: "CODA can feed those metrics and keep them moving in the right direction.",
+              weak: "Spot checks are reactive. Offer a CODA dashboard to make progress visible.",
+              bad: "SLAs alone hide risk. CODA provides transparency and control.",
             },
           },
           {
@@ -1051,12 +920,9 @@ const verticals = [
             ],
             bestOptionIndex: 0,
             feedback: {
-              best:
-                "Map CODA outputs to adoption and trust so the release lands.",
-              weak:
-                "Timelines matter, but CODA helps ship with quality intact.",
-              bad:
-                "Demos alone don’t stick. Use CODA to ensure production readiness.",
+              best: "Map CODA outputs to adoption and trust so the release lands.",
+              weak: "Timelines matter, but CODA helps ship with quality intact.",
+              bad: "Demos alone don’t stick. Use CODA to ensure production readiness.",
             },
           },
         ],
@@ -1066,7 +932,8 @@ const verticals = [
   {
     id: "manufacturing",
     name: "Manufacturing",
-    description: "Discrete production with multi-site plants and complex supplier networks.",
+    description:
+      "Discrete production with multi-site plants and complex supplier networks.",
     personas: [
       {
         id: "mfgExec",
@@ -1092,12 +959,9 @@ const verticals = [
             ],
             bestOptionIndex: 0,
             feedback: {
-              best:
-                "CODA can feed that dashboard with governed data so cash release is clear.",
-              weak:
-                "Estimates are a start. CODA provides real duplication rates to refine them.",
-              bad:
-                "Carrying extra hides waste. CODA proves where buffers can shrink safely.",
+              best: "CODA can feed that dashboard with governed data so cash release is clear.",
+              weak: "Estimates are a start. CODA provides real duplication rates to refine them.",
+              bad: "Carrying extra hides waste. CODA proves where buffers can shrink safely.",
             },
           },
           {
@@ -1110,12 +974,9 @@ const verticals = [
             ],
             bestOptionIndex: 0,
             feedback: {
-              best:
-                "Map CODA outputs directly to that cash forecast and rollout plan.",
-              weak:
-                "Reports without financial linkage won’t unlock budget. Reframe toward measurable KPIs.",
-              bad:
-                "Tool tolerance is secondary. Lead with business outcomes.",
+              best: "Map CODA outputs directly to that cash forecast and rollout plan.",
+              weak: "Reports without financial linkage won’t unlock budget. Reframe toward measurable KPIs.",
+              bad: "Tool tolerance is secondary. Lead with business outcomes.",
             },
           },
           {
@@ -1128,12 +989,9 @@ const verticals = [
             ],
             bestOptionIndex: 0,
             feedback: {
-              best:
-                "Connect CODA’s deduplication to the KPIs leadership tracks.",
-              weak:
-                "Link maintenance friction back to cost and schedule to show impact.",
-              bad:
-                "Stocking more signals wasted cash. Use CODA to highlight reductions.",
+              best: "Connect CODA’s deduplication to the KPIs leadership tracks.",
+              weak: "Link maintenance friction back to cost and schedule to show impact.",
+              bad: "Stocking more signals wasted cash. Use CODA to highlight reductions.",
             },
           },
         ],
@@ -1162,12 +1020,9 @@ const verticals = [
             ],
             bestOptionIndex: 0,
             feedback: {
-              best:
-                "CODA keeps that trust high by preventing spec drift across sites.",
-              weak:
-                "Mixing signals risk. CODA captures expert nuance and standardizes it.",
-              bad:
-                "Experience-only is fragile. CODA protects uptime when key people are out.",
+              best: "CODA keeps that trust high by preventing spec drift across sites.",
+              weak: "Mixing signals risk. CODA captures expert nuance and standardizes it.",
+              bad: "Experience-only is fragile. CODA protects uptime when key people are out.",
             },
           },
           {
@@ -1180,12 +1035,9 @@ const verticals = [
             ],
             bestOptionIndex: 0,
             feedback: {
-              best:
-                "CODA can automate those checks and keep outages on track.",
-              weak:
-                "Scrambling is costly. CODA pre-approves alternates and cuts risk.",
-              bad:
-                "Frequent improvisation screams risk. CODA enforces clarity so windows stay on schedule.",
+              best: "CODA can automate those checks and keep outages on track.",
+              weak: "Scrambling is costly. CODA pre-approves alternates and cuts risk.",
+              bad: "Frequent improvisation screams risk. CODA enforces clarity so windows stay on schedule.",
             },
           },
           {
@@ -1198,12 +1050,9 @@ const verticals = [
             ],
             bestOptionIndex: 0,
             feedback: {
-              best:
-                "Playbooks plus CODA keep operations resilient and reduce single points of failure.",
-              weak:
-                "Partial coverage is risky. CODA encodes tricky details into standards everyone follows.",
-              bad:
-                "Waiting stalls production. CODA is the safety net for continuity.",
+              best: "Playbooks plus CODA keep operations resilient and reduce single points of failure.",
+              weak: "Partial coverage is risky. CODA encodes tricky details into standards everyone follows.",
+              bad: "Waiting stalls production. CODA is the safety net for continuity.",
             },
           },
         ],
@@ -1232,12 +1081,9 @@ const verticals = [
             ],
             bestOptionIndex: 1,
             feedback: {
-              best:
-                "Governed catalogs align with CODA. Rapid vendor onboarding keeps it current.",
-              weak:
-                "Human checks miss patterns. CODA surfaces duplicates instantly.",
-              bad:
-                "Relying on vendors risks price creep. CODA gives procurement control.",
+              best: "Governed catalogs align with CODA. Rapid vendor onboarding keeps it current.",
+              weak: "Human checks miss patterns. CODA surfaces duplicates instantly.",
+              bad: "Relying on vendors risks price creep. CODA gives procurement control.",
             },
           },
           {
@@ -1250,12 +1096,9 @@ const verticals = [
             ],
             bestOptionIndex: 1,
             feedback: {
-              best:
-                "Templates are solid. CODA can prefill and validate to go faster.",
-              weak:
-                "Email loops waste time. CODA structures intake and proposes matches automatically.",
-              bad:
-                "Defaulting to one vendor hides options. CODA encourages competitive sourcing with clean data.",
+              best: "Templates are solid. CODA can prefill and validate to go faster.",
+              weak: "Email loops waste time. CODA structures intake and proposes matches automatically.",
+              bad: "Defaulting to one vendor hides options. CODA encourages competitive sourcing with clean data.",
             },
           },
           {
@@ -1268,12 +1111,9 @@ const verticals = [
             ],
             bestOptionIndex: 0,
             feedback: {
-              best:
-                "CODA’s standardized specs give confidence to consolidate aggressively.",
-              weak:
-                "High spend is a start; CODA reveals hidden overlaps.",
-              bad:
-                "Waiting leaves value. CODA enables proactive category strategies.",
+              best: "CODA’s standardized specs give confidence to consolidate aggressively.",
+              weak: "High spend is a start; CODA reveals hidden overlaps.",
+              bad: "Waiting leaves value. CODA enables proactive category strategies.",
             },
           },
         ],
@@ -1302,12 +1142,9 @@ const verticals = [
             ],
             bestOptionIndex: 0,
             feedback: {
-              best:
-                "CODA strengthens that control and keeps alternates aligned.",
-              weak:
-                "Ad-hoc updates miss issues. CODA provides continuous validation.",
-              bad:
-                "Assumptions risk non-conformance. CODA surfaces mismatches early.",
+              best: "CODA strengthens that control and keeps alternates aligned.",
+              weak: "Ad-hoc updates miss issues. CODA provides continuous validation.",
+              bad: "Assumptions risk non-conformance. CODA surfaces mismatches early.",
             },
           },
           {
@@ -1320,12 +1157,9 @@ const verticals = [
             ],
             bestOptionIndex: 0,
             feedback: {
-              best:
-                "CODA keeps that decision visible and prevents drift across plants.",
-              weak:
-                "Case-by-case slows teams. CODA accelerates consensus with data.",
-              bad:
-                "Autonomy dilutes quality. CODA enforces the chosen standard.",
+              best: "CODA keeps that decision visible and prevents drift across plants.",
+              weak: "Case-by-case slows teams. CODA accelerates consensus with data.",
+              bad: "Autonomy dilutes quality. CODA enforces the chosen standard.",
             },
           },
           {
@@ -1338,12 +1172,9 @@ const verticals = [
             ],
             bestOptionIndex: 0,
             feedback: {
-              best:
-                "CODA provides the lineage and approvals to make traceability easy.",
-              weak:
-                "Reconstruction wastes time. CODA keeps the record ready for audits.",
-              bad:
-                "No traceability risks recalls. CODA establishes continuous evidence.",
+              best: "CODA provides the lineage and approvals to make traceability easy.",
+              weak: "Reconstruction wastes time. CODA keeps the record ready for audits.",
+              bad: "No traceability risks recalls. CODA establishes continuous evidence.",
             },
           },
         ],
@@ -1372,12 +1203,9 @@ const verticals = [
             ],
             bestOptionIndex: 0,
             feedback: {
-              best:
-                "Tie CODA cleansing directly to predictive maintenance wins.",
-              weak:
-                "Visibility matters, but connect it back to digital KPIs.",
-              bad:
-                "Hidden issues surface later. Use CODA to prove readiness before scaling.",
+              best: "Tie CODA cleansing directly to predictive maintenance wins.",
+              weak: "Visibility matters, but connect it back to digital KPIs.",
+              bad: "Hidden issues surface later. Use CODA to prove readiness before scaling.",
             },
           },
           {
@@ -1390,12 +1218,9 @@ const verticals = [
             ],
             bestOptionIndex: 0,
             feedback: {
-              best:
-                "CODA can feed those metrics and keep them moving in the right direction.",
-              weak:
-                "Spot checks are reactive. Offer a CODA dashboard to make progress visible.",
-              bad:
-                "Relying on SLAs hides risk. CODA provides transparency and control.",
+              best: "CODA can feed those metrics and keep them moving in the right direction.",
+              weak: "Spot checks are reactive. Offer a CODA dashboard to make progress visible.",
+              bad: "Relying on SLAs hides risk. CODA provides transparency and control.",
             },
           },
           {
@@ -1408,12 +1233,9 @@ const verticals = [
             ],
             bestOptionIndex: 0,
             feedback: {
-              best:
-                "Map CODA outputs to adoption and trust so the release lands.",
-              weak:
-                "Timelines matter, but CODA can help you ship with quality intact.",
-              bad:
-                "Demos alone don’t stick. Use CODA to ensure production readiness.",
+              best: "Map CODA outputs to adoption and trust so the release lands.",
+              weak: "Timelines matter, but CODA can help you ship with quality intact.",
+              bad: "Demos alone don’t stick. Use CODA to ensure production readiness.",
             },
           },
         ],
@@ -1423,7 +1245,8 @@ const verticals = [
   {
     id: "healthcare",
     name: "Healthcare & Life Sciences",
-    description: "Hospital networks, labs, and device makers where accuracy and compliance are critical.",
+    description:
+      "Hospital networks, labs, and device makers where accuracy and compliance are critical.",
     personas: [
       {
         id: "hcCdo",
@@ -1449,12 +1272,9 @@ const verticals = [
             ],
             bestOptionIndex: 0,
             feedback: {
-              best:
-                "CODA can plug into that hub to harden validations and keep codes consistent across systems.",
-              weak:
-                "Reconciliations leave gaps. CODA automates cross-system checks so teams spend less time firefighting.",
-              bad:
-                "Reactive fixes risk safety. Position CODA as the guardrail that prevents mismatches before they hit clinicians.",
+              best: "CODA can plug into that hub to harden validations and keep codes consistent across systems.",
+              weak: "Reconciliations leave gaps. CODA automates cross-system checks so teams spend less time firefighting.",
+              bad: "Reactive fixes risk safety. Position CODA as the guardrail that prevents mismatches before they hit clinicians.",
             },
           },
           {
@@ -1467,12 +1287,9 @@ const verticals = [
             ],
             bestOptionIndex: 0,
             feedback: {
-              best:
-                "Traceability pairs with CODA’s lineage so audits are faster and cleaner.",
-              weak:
-                "Manual evidence is brittle. CODA provides governed history to reduce audit prep time.",
-              bad:
-                "Hoping systems agree is risky. Use CODA to prove compliance with minimal effort.",
+              best: "Traceability pairs with CODA’s lineage so audits are faster and cleaner.",
+              weak: "Manual evidence is brittle. CODA provides governed history to reduce audit prep time.",
+              bad: "Hoping systems agree is risky. Use CODA to prove compliance with minimal effort.",
             },
           },
           {
@@ -1485,12 +1302,9 @@ const verticals = [
             ],
             bestOptionIndex: 0,
             feedback: {
-              best:
-                "Lead with measurable duplication cuts and reporting lift; CODA can deliver that quickly.",
-              weak:
-                "Dashboards without outcomes won’t unlock budget. Tie metrics to safety and compliance.",
-              bad:
-                "Adoption matters, but funding follows outcomes. Keep the focus on safety and auditability.",
+              best: "Lead with measurable duplication cuts and reporting lift; CODA can deliver that quickly.",
+              weak: "Dashboards without outcomes won’t unlock budget. Tie metrics to safety and compliance.",
+              bad: "Adoption matters, but funding follows outcomes. Keep the focus on safety and auditability.",
             },
           },
         ],
@@ -1519,12 +1333,9 @@ const verticals = [
             ],
             bestOptionIndex: 0,
             feedback: {
-              best:
-                "CODA accelerates that control with faster vendor onboarding and duplicate prevention.",
-              weak:
-                "Human checks miss patterns. CODA surfaces overlaps instantly so savings stick.",
-              bad:
-                "Late discovery erodes margins. Position CODA as the early warning system.",
+              best: "CODA accelerates that control with faster vendor onboarding and duplicate prevention.",
+              weak: "Human checks miss patterns. CODA surfaces overlaps instantly so savings stick.",
+              bad: "Late discovery erodes margins. Position CODA as the early warning system.",
             },
           },
           {
@@ -1537,12 +1348,9 @@ const verticals = [
             ],
             bestOptionIndex: 1,
             feedback: {
-              best:
-                "Templates are strong. CODA can prefill attributes and validate against current formulary to go faster.",
-              weak:
-                "CODA structures intake and proposes matches so sourcing isn’t slowed by email loops.",
-              bad:
-                "Ordering first invites leakage. CODA keeps contracts and specs tight from the start.",
+              best: "Templates are strong. CODA can prefill attributes and validate against current formulary to go faster.",
+              weak: "CODA structures intake and proposes matches so sourcing isn’t slowed by email loops.",
+              bad: "Ordering first invites leakage. CODA keeps contracts and specs tight from the start.",
             },
           },
           {
@@ -1555,12 +1363,9 @@ const verticals = [
             ],
             bestOptionIndex: 0,
             feedback: {
-              best:
-                "CODA keeps those alternates synchronized and auditable across sites.",
-              weak:
-                "Spreadsheets drift. CODA centralizes alternates so compliance is consistent.",
-              bad:
-                "Vendor-led alternates risk non-compliance. CODA protects contracts and clinical trust.",
+              best: "CODA keeps those alternates synchronized and auditable across sites.",
+              weak: "Spreadsheets drift. CODA centralizes alternates so compliance is consistent.",
+              bad: "Vendor-led alternates risk non-compliance. CODA protects contracts and clinical trust.",
             },
           },
         ],
@@ -1589,12 +1394,9 @@ const verticals = [
             ],
             bestOptionIndex: 0,
             feedback: {
-              best:
-                "CODA enriches that register and keeps lineage current so recalls are fast.",
-              weak:
-                "Manual reconciliation is slow. CODA links parts to assets automatically to cut response time.",
-              bad:
-                "Manual checks risk misses. CODA provides immediate traceability.",
+              best: "CODA enriches that register and keeps lineage current so recalls are fast.",
+              weak: "Manual reconciliation is slow. CODA links parts to assets automatically to cut response time.",
+              bad: "Manual checks risk misses. CODA provides immediate traceability.",
             },
           },
           {
@@ -1607,12 +1409,9 @@ const verticals = [
             ],
             bestOptionIndex: 0,
             feedback: {
-              best:
-                "CODA keeps those standards enforced and synced across systems.",
-              weak:
-                "Experience is fragile. CODA captures that detail and standardizes it.",
-              bad:
-                "Swapping risks safety. CODA blocks mismatches upfront.",
+              best: "CODA keeps those standards enforced and synced across systems.",
+              weak: "Experience is fragile. CODA captures that detail and standardizes it.",
+              bad: "Swapping risks safety. CODA blocks mismatches upfront.",
             },
           },
           {
@@ -1625,12 +1424,9 @@ const verticals = [
             ],
             bestOptionIndex: 0,
             feedback: {
-              best:
-                "CODA preserves that rationale and prevents drift across facilities.",
-              weak:
-                "Case-by-case slows you down. CODA gives data to accelerate consensus.",
-              bad:
-                "Site autonomy dilutes safety. CODA enforces the chosen standard.",
+              best: "CODA preserves that rationale and prevents drift across facilities.",
+              weak: "Case-by-case slows you down. CODA gives data to accelerate consensus.",
+              bad: "Site autonomy dilutes safety. CODA enforces the chosen standard.",
             },
           },
         ],
@@ -1659,12 +1455,9 @@ const verticals = [
             ],
             bestOptionIndex: 0,
             feedback: {
-              best:
-                "CODA centralizes those attributes and approvals so evidence is instant.",
-              weak:
-                "Spreadsheets are brittle. CODA makes lineage audit-ready.",
-              bad:
-                "Vendor attestations alone are risky. CODA provides internal proof.",
+              best: "CODA centralizes those attributes and approvals so evidence is instant.",
+              weak: "Spreadsheets are brittle. CODA makes lineage audit-ready.",
+              bad: "Vendor attestations alone are risky. CODA provides internal proof.",
             },
           },
           {
@@ -1677,12 +1470,9 @@ const verticals = [
             ],
             bestOptionIndex: 0,
             feedback: {
-              best:
-                "CODA can feed those metrics and automate alerts to keep quality improving.",
-              weak:
-                "Reactive checks miss risk. CODA provides continuous monitoring and coaching.",
-              bad:
-                "Assumptions invite findings. CODA creates transparency and control.",
+              best: "CODA can feed those metrics and automate alerts to keep quality improving.",
+              weak: "Reactive checks miss risk. CODA provides continuous monitoring and coaching.",
+              bad: "Assumptions invite findings. CODA creates transparency and control.",
             },
           },
           {
@@ -1695,12 +1485,9 @@ const verticals = [
             ],
             bestOptionIndex: 0,
             feedback: {
-              best:
-                "CODA keeps that speed by making lineage accessible and consistent.",
-              weak:
-                "Long prep time is costly. CODA cuts collection by keeping evidence ready.",
-              bad:
-                "Waiting on others is risky. CODA provides instant answers.",
+              best: "CODA keeps that speed by making lineage accessible and consistent.",
+              weak: "Long prep time is costly. CODA cuts collection by keeping evidence ready.",
+              bad: "Waiting on others is risky. CODA provides instant answers.",
             },
           },
         ],
@@ -1729,12 +1516,9 @@ const verticals = [
             ],
             bestOptionIndex: 0,
             feedback: {
-              best:
-                "Tie CODA cleansing directly to those programs’ KPIs to justify investment.",
-              weak:
-                "Procurement matters—link it back to digital KPIs to keep alignment.",
-              bad:
-                "Issues surface later. CODA proves readiness before scaling.",
+              best: "Tie CODA cleansing directly to those programs’ KPIs to justify investment.",
+              weak: "Procurement matters—link it back to digital KPIs to keep alignment.",
+              bad: "Issues surface later. CODA proves readiness before scaling.",
             },
           },
           {
@@ -1747,12 +1531,9 @@ const verticals = [
             ],
             bestOptionIndex: 0,
             feedback: {
-              best:
-                "CODA feeds those dashboards and keeps metrics trending up.",
-              weak:
-                "Spot checks are reactive. CODA provides continuous monitoring.",
-              bad:
-                "SLAs alone hide risk. CODA gives transparency and control.",
+              best: "CODA feeds those dashboards and keeps metrics trending up.",
+              weak: "Spot checks are reactive. CODA provides continuous monitoring.",
+              bad: "SLAs alone hide risk. CODA gives transparency and control.",
             },
           },
           {
@@ -1765,12 +1546,9 @@ const verticals = [
             ],
             bestOptionIndex: 0,
             feedback: {
-              best:
-                "Map CODA outputs to adoption and trust so the release lands.",
-              weak:
-                "Timelines matter, but CODA keeps quality intact.",
-              bad:
-                "Demos alone don’t stick. Use CODA to ensure production readiness.",
+              best: "Map CODA outputs to adoption and trust so the release lands.",
+              weak: "Timelines matter, but CODA keeps quality intact.",
+              bad: "Demos alone don’t stick. Use CODA to ensure production readiness.",
             },
           },
         ],
@@ -1780,7 +1558,8 @@ const verticals = [
   {
     id: "retail",
     name: "Retail & eCommerce",
-    description: "Omnichannel retail with distributed stores, DCs, and digital storefronts.",
+    description:
+      "Omnichannel retail with distributed stores, DCs, and digital storefronts.",
     personas: [
       {
         id: "retailCoo",
@@ -1806,12 +1585,9 @@ const verticals = [
             ],
             bestOptionIndex: 0,
             feedback: {
-              best:
-                "CODA strengthens that control and accelerates onboarding for new products.",
-              weak:
-                "Weekly fixes leave leakage. CODA prevents duplicates before they hit shoppers.",
-              bad:
-                "Reactive cleanup hurts experience. Position CODA as the always-on guardrail.",
+              best: "CODA strengthens that control and accelerates onboarding for new products.",
+              weak: "Weekly fixes leave leakage. CODA prevents duplicates before they hit shoppers.",
+              bad: "Reactive cleanup hurts experience. Position CODA as the always-on guardrail.",
             },
           },
           {
@@ -1824,12 +1600,9 @@ const verticals = [
             ],
             bestOptionIndex: 0,
             feedback: {
-              best:
-                "CODA standardizes intake, enriches attributes, and prevents duplicate SKUs so launches stay on time.",
-              weak:
-                "Filling gaps later risks errors. CODA cleans data up front to protect the drop.",
-              bad:
-                "Pricing matters, but data integrity underpins confidence—CODA de-risks it.",
+              best: "CODA standardizes intake, enriches attributes, and prevents duplicate SKUs so launches stay on time.",
+              weak: "Filling gaps later risks errors. CODA cleans data up front to protect the drop.",
+              bad: "Pricing matters, but data integrity underpins confidence—CODA de-risks it.",
             },
           },
           {
@@ -1842,12 +1615,9 @@ const verticals = [
             ],
             bestOptionIndex: 0,
             feedback: {
-              best:
-                "Link CODA to revenue protection and reduced returns—fast justification for a pilot.",
-              weak:
-                "Ops pain still costs. Connect it to customer metrics to build urgency.",
-              bad:
-                "Complacency risks revenue. CODA prevents drift continuously.",
+              best: "Link CODA to revenue protection and reduced returns—fast justification for a pilot.",
+              weak: "Ops pain still costs. Connect it to customer metrics to build urgency.",
+              bad: "Complacency risks revenue. CODA prevents drift continuously.",
             },
           },
         ],
@@ -1876,12 +1646,9 @@ const verticals = [
             ],
             bestOptionIndex: 0,
             feedback: {
-              best:
-                "CODA keeps those masters synced automatically so planning stays accurate.",
-              weak:
-                "Manual adjustments are costly. CODA detects mismatches early.",
-              bad:
-                "Peak-only reconciliation is risky. CODA provides continuous alignment.",
+              best: "CODA keeps those masters synced automatically so planning stays accurate.",
+              weak: "Manual adjustments are costly. CODA detects mismatches early.",
+              bad: "Peak-only reconciliation is risky. CODA provides continuous alignment.",
             },
           },
           {
@@ -1894,12 +1661,9 @@ const verticals = [
             ],
             bestOptionIndex: 0,
             feedback: {
-              best:
-                "CODA enriches and governs substitute relationships so promises are accurate.",
-              weak:
-                "Experience varies. CODA standardizes substitutes for consistent service.",
-              bad:
-                "Uncontrolled substitutions risk returns. CODA keeps it disciplined.",
+              best: "CODA enriches and governs substitute relationships so promises are accurate.",
+              weak: "Experience varies. CODA standardizes substitutes for consistent service.",
+              bad: "Uncontrolled substitutions risk returns. CODA keeps it disciplined.",
             },
           },
           {
@@ -1912,12 +1676,9 @@ const verticals = [
             ],
             bestOptionIndex: 0,
             feedback: {
-              best:
-                "CODA provides the data to shrink duplication and buffers confidently.",
-              weak:
-                "Annual reviews miss ongoing waste. CODA keeps the cost visible monthly.",
-              bad:
-                "Buffers hide waste. CODA proves where to reduce safely.",
+              best: "CODA provides the data to shrink duplication and buffers confidently.",
+              weak: "Annual reviews miss ongoing waste. CODA keeps the cost visible monthly.",
+              bad: "Buffers hide waste. CODA proves where to reduce safely.",
             },
           },
         ],
@@ -1946,12 +1707,9 @@ const verticals = [
             ],
             bestOptionIndex: 0,
             feedback: {
-              best:
-                "CODA’s clean attributes and media governance directly reduce returns and abandonment.",
-              weak:
-                "Delivery matters, but attribute accuracy is the foundation—CODA can help there first.",
-              bad:
-                "Price sync is important; CODA still helps by standardizing masters feeding pricing.",
+              best: "CODA’s clean attributes and media governance directly reduce returns and abandonment.",
+              weak: "Delivery matters, but attribute accuracy is the foundation—CODA can help there first.",
+              bad: "Price sync is important; CODA still helps by standardizing masters feeding pricing.",
             },
           },
           {
@@ -1964,12 +1722,9 @@ const verticals = [
             ],
             bestOptionIndex: 0,
             feedback: {
-              best:
-                "CODA accelerates onboarding further by automating mapping and validation.",
-              weak:
-                "CODA can shrink those weeks by normalizing attributes automatically.",
-              bad:
-                "Copying invites errors. CODA cleans content before it hits the site.",
+              best: "CODA accelerates onboarding further by automating mapping and validation.",
+              weak: "CODA can shrink those weeks by normalizing attributes automatically.",
+              bad: "Copying invites errors. CODA cleans content before it hits the site.",
             },
           },
           {
@@ -1982,12 +1737,9 @@ const verticals = [
             ],
             bestOptionIndex: 0,
             feedback: {
-              best:
-                "CODA preserves source-of-truth attributes and keeps locales synchronized.",
-              weak:
-                "Local teams have limits. CODA keeps alignment without extra effort.",
-              bad:
-                "Assuming rarity risks CX. CODA provides continuous control.",
+              best: "CODA preserves source-of-truth attributes and keeps locales synchronized.",
+              weak: "Local teams have limits. CODA keeps alignment without extra effort.",
+              bad: "Assuming rarity risks CX. CODA provides continuous control.",
             },
           },
         ],
@@ -2016,12 +1768,9 @@ const verticals = [
             ],
             bestOptionIndex: 0,
             feedback: {
-              best:
-                "CODA maintains that harmony automatically so planners trust the signals.",
-              weak:
-                "Manual adjustments are costly. CODA highlights mismatches early.",
-              bad:
-                "Independent codes break visibility. CODA creates one view fast.",
+              best: "CODA maintains that harmony automatically so planners trust the signals.",
+              weak: "Manual adjustments are costly. CODA highlights mismatches early.",
+              bad: "Independent codes break visibility. CODA creates one view fast.",
             },
           },
           {
@@ -2034,12 +1783,9 @@ const verticals = [
             ],
             bestOptionIndex: 0,
             feedback: {
-              best:
-                "CODA governs substitutes and ties them to outcomes, reducing return risk.",
-              weak:
-                "Local decisions vary. CODA standardizes substitutes for consistent results.",
-              bad:
-                "No management invites errors. CODA brings control quickly.",
+              best: "CODA governs substitutes and ties them to outcomes, reducing return risk.",
+              weak: "Local decisions vary. CODA standardizes substitutes for consistent results.",
+              bad: "No management invites errors. CODA brings control quickly.",
             },
           },
           {
@@ -2052,12 +1798,9 @@ const verticals = [
             ],
             bestOptionIndex: 0,
             feedback: {
-              best:
-                "CODA feeds that measurement with real duplication and error rates.",
-              weak:
-                "CODA helps isolate data quality so service-level fixes are targeted.",
-              bad:
-                "Without measurement, value stays hidden. CODA surfaces it quickly.",
+              best: "CODA feeds that measurement with real duplication and error rates.",
+              weak: "CODA helps isolate data quality so service-level fixes are targeted.",
+              bad: "Without measurement, value stays hidden. CODA surfaces it quickly.",
             },
           },
         ],
@@ -2086,12 +1829,9 @@ const verticals = [
             ],
             bestOptionIndex: 0,
             feedback: {
-              best:
-                "CODA enhances those validations and keeps exceptions traceable.",
-              weak:
-                "Cleanups miss issues. CODA adds continuous checks without slowing teams.",
-              bad:
-                "Skipping validation invites errors. CODA gives speed and control together.",
+              best: "CODA enhances those validations and keeps exceptions traceable.",
+              weak: "Cleanups miss issues. CODA adds continuous checks without slowing teams.",
+              bad: "Skipping validation invites errors. CODA gives speed and control together.",
             },
           },
           {
@@ -2104,12 +1844,9 @@ const verticals = [
             ],
             bestOptionIndex: 0,
             feedback: {
-              best:
-                "CODA codifies that RACI and provides evidence leadership expects.",
-              weak:
-                "Ad-hoc ownership risks drift. CODA standardizes approvals and SLAs.",
-              bad:
-                "No ownership means chaos. CODA brings governed flow without slowing releases.",
+              best: "CODA codifies that RACI and provides evidence leadership expects.",
+              weak: "Ad-hoc ownership risks drift. CODA standardizes approvals and SLAs.",
+              bad: "No ownership means chaos. CODA brings governed flow without slowing releases.",
             },
           },
           {
@@ -2122,12 +1859,9 @@ const verticals = [
             ],
             bestOptionIndex: 0,
             feedback: {
-              best:
-                "CODA amplifies that automation and keeps catalogs aligned across systems.",
-              weak:
-                "Cleanups leave leakage. CODA provides continuous checks.",
-              bad:
-                "Reactive fixes hurt CX. CODA prevents issues upfront.",
+              best: "CODA amplifies that automation and keeps catalogs aligned across systems.",
+              weak: "Cleanups leave leakage. CODA provides continuous checks.",
+              bad: "Reactive fixes hurt CX. CODA prevents issues upfront.",
             },
           },
         ],
@@ -2137,7 +1871,8 @@ const verticals = [
   {
     id: "financialServices",
     name: "Financial Services",
-    description: "Banks, insurers, and fintechs balancing growth, risk, and regulatory control.",
+    description:
+      "Banks, insurers, and fintechs balancing growth, risk, and regulatory control.",
     personas: [
       {
         id: "fsCdo",
@@ -2163,12 +1898,9 @@ const verticals = [
             ],
             bestOptionIndex: 0,
             feedback: {
-              best:
-                "CODA strengthens that hub and surfaces issues before they propagate.",
-              weak:
-                "Monthly reconciliation leaves drift. CODA automates checks continuously.",
-              bad:
-                "Project-based alignment risks errors. CODA provides a consistent baseline.",
+              best: "CODA strengthens that hub and surfaces issues before they propagate.",
+              weak: "Monthly reconciliation leaves drift. CODA automates checks continuously.",
+              bad: "Project-based alignment risks errors. CODA provides a consistent baseline.",
             },
           },
           {
@@ -2181,12 +1913,9 @@ const verticals = [
             ],
             bestOptionIndex: 0,
             feedback: {
-              best:
-                "CODA standardizes attributes and mappings so onboarding is faster and safer.",
-              weak:
-                "Compliance alignment is easier with CODA’s governed templates.",
-              bad:
-                "Adoption improves when CODA reduces manual work—start there.",
+              best: "CODA standardizes attributes and mappings so onboarding is faster and safer.",
+              weak: "Compliance alignment is easier with CODA’s governed templates.",
+              bad: "Adoption improves when CODA reduces manual work—start there.",
             },
           },
           {
@@ -2199,12 +1928,9 @@ const verticals = [
             ],
             bestOptionIndex: 0,
             feedback: {
-              best:
-                "CODA keeps lineage and approvals audit-ready and easy to present.",
-              weak:
-                "Manual exports are fragile. CODA provides consistent evidence.",
-              bad:
-                "Ad-hoc gathering is risky. CODA gives instant answers.",
+              best: "CODA keeps lineage and approvals audit-ready and easy to present.",
+              weak: "Manual exports are fragile. CODA provides consistent evidence.",
+              bad: "Ad-hoc gathering is risky. CODA gives instant answers.",
             },
           },
         ],
@@ -2233,12 +1959,9 @@ const verticals = [
             ],
             bestOptionIndex: 0,
             feedback: {
-              best:
-                "CODA reinforces those validations and keeps evidence traceable.",
-              weak:
-                "Sampling misses risk. CODA checks continuously without heavy lift.",
-              bad:
-                "Deferring fixes risks fines. CODA prevents gaps early.",
+              best: "CODA reinforces those validations and keeps evidence traceable.",
+              weak: "Sampling misses risk. CODA checks continuously without heavy lift.",
+              bad: "Deferring fixes risks fines. CODA prevents gaps early.",
             },
           },
           {
@@ -2251,12 +1974,9 @@ const verticals = [
             ],
             bestOptionIndex: 0,
             feedback: {
-              best:
-                "CODA cleanses masters so rules operate on reliable data, reducing noise.",
-              weak:
-                "Rule tuning helps, but CODA ensures the data foundation is trusted.",
-              bad:
-                "Accepting noise wastes time. CODA shows quick reductions via better data.",
+              best: "CODA cleanses masters so rules operate on reliable data, reducing noise.",
+              weak: "Rule tuning helps, but CODA ensures the data foundation is trusted.",
+              bad: "Accepting noise wastes time. CODA shows quick reductions via better data.",
             },
           },
           {
@@ -2269,12 +1989,9 @@ const verticals = [
             ],
             bestOptionIndex: 0,
             feedback: {
-              best:
-                "CODA keeps that speed by making lineage accessible and consistent.",
-              weak:
-                "Long prep is costly. CODA cuts it by centralizing evidence.",
-              bad:
-                "Waiting is risky. CODA gives instant answers.",
+              best: "CODA keeps that speed by making lineage accessible and consistent.",
+              weak: "Long prep is costly. CODA cuts it by centralizing evidence.",
+              bad: "Waiting is risky. CODA gives instant answers.",
             },
           },
         ],
@@ -2303,12 +2020,9 @@ const verticals = [
             ],
             bestOptionIndex: 0,
             feedback: {
-              best:
-                "CODA synchronizes masters so claims flow without rekeying or checks.",
-              weak:
-                "Vendor gaps still cost time. CODA standardizes those feeds too.",
-              bad:
-                "Issues often stay hidden. CODA surfaces them and shows quick wins.",
+              best: "CODA synchronizes masters so claims flow without rekeying or checks.",
+              weak: "Vendor gaps still cost time. CODA standardizes those feeds too.",
+              bad: "Issues often stay hidden. CODA surfaces them and shows quick wins.",
             },
           },
           {
@@ -2321,12 +2035,9 @@ const verticals = [
             ],
             bestOptionIndex: 0,
             feedback: {
-              best:
-                "CODA strengthens those checks and keeps integrations clean.",
-              weak:
-                "Cleanups leave leakage. CODA catches duplicates instantly.",
-              bad:
-                "Late merges create rework. CODA blocks issues up front.",
+              best: "CODA strengthens those checks and keeps integrations clean.",
+              weak: "Cleanups leave leakage. CODA catches duplicates instantly.",
+              bad: "Late merges create rework. CODA blocks issues up front.",
             },
           },
           {
@@ -2339,12 +2050,9 @@ const verticals = [
             ],
             bestOptionIndex: 0,
             feedback: {
-              best:
-                "CODA feeds that measurement with duplication and error rates tied to process steps.",
-              weak:
-                "CODA helps isolate data-driven SLA misses for targeted fixes.",
-              bad:
-                "Without measurement, value is hidden. CODA surfaces it quickly.",
+              best: "CODA feeds that measurement with duplication and error rates tied to process steps.",
+              weak: "CODA helps isolate data-driven SLA misses for targeted fixes.",
+              bad: "Without measurement, value is hidden. CODA surfaces it quickly.",
             },
           },
         ],
@@ -2373,12 +2081,9 @@ const verticals = [
             ],
             bestOptionIndex: 0,
             feedback: {
-              best:
-                "CODA keeps that governed master consistent and auditable.",
-              weak:
-                "Manual reconciliations are costly. CODA reduces effort with clean masters.",
-              bad:
-                "Post-close adjustments hide risk. CODA provides confidence earlier.",
+              best: "CODA keeps that governed master consistent and auditable.",
+              weak: "Manual reconciliations are costly. CODA reduces effort with clean masters.",
+              bad: "Post-close adjustments hide risk. CODA provides confidence earlier.",
             },
           },
           {
@@ -2391,12 +2096,9 @@ const verticals = [
             ],
             bestOptionIndex: 0,
             feedback: {
-              best:
-                "CODA feeds accurate duplication rates to sharpen those models and unlock cash.",
-              weak:
-                "Estimates can improve quickly with CODA’s real data.",
-              bad:
-                "Assumptions hide cash. CODA proves where to release it safely.",
+              best: "CODA feeds accurate duplication rates to sharpen those models and unlock cash.",
+              weak: "Estimates can improve quickly with CODA’s real data.",
+              bad: "Assumptions hide cash. CODA proves where to release it safely.",
             },
           },
           {
@@ -2409,12 +2111,9 @@ const verticals = [
             ],
             bestOptionIndex: 0,
             feedback: {
-              best:
-                "CODA maintains that readiness with centralized lineage.",
-              weak:
-                "Long prep is costly. CODA keeps evidence ready.",
-              bad:
-                "Waiting is risky. CODA provides immediate answers.",
+              best: "CODA maintains that readiness with centralized lineage.",
+              weak: "Long prep is costly. CODA keeps evidence ready.",
+              bad: "Waiting is risky. CODA provides immediate answers.",
             },
           },
         ],
@@ -2443,12 +2142,9 @@ const verticals = [
             ],
             bestOptionIndex: 0,
             feedback: {
-              best:
-                "Tie CODA cleansing directly to onboarding conversion and offer accuracy.",
-              weak:
-                "Reporting matters, but CODA proves value faster in frontline journeys.",
-              bad:
-                "Issues appear later. CODA proves readiness now.",
+              best: "Tie CODA cleansing directly to onboarding conversion and offer accuracy.",
+              weak: "Reporting matters, but CODA proves value faster in frontline journeys.",
+              bad: "Issues appear later. CODA proves readiness now.",
             },
           },
           {
@@ -2461,12 +2157,9 @@ const verticals = [
             ],
             bestOptionIndex: 0,
             feedback: {
-              best:
-                "CODA feeds those metrics and keeps them trending the right way.",
-              weak:
-                "Tests are late signals. CODA provides continuous monitoring.",
-              bad:
-                "SLAs alone hide risk. CODA adds transparency and control.",
+              best: "CODA feeds those metrics and keeps them trending the right way.",
+              weak: "Tests are late signals. CODA provides continuous monitoring.",
+              bad: "SLAs alone hide risk. CODA adds transparency and control.",
             },
           },
           {
@@ -2479,12 +2172,9 @@ const verticals = [
             ],
             bestOptionIndex: 0,
             feedback: {
-              best:
-                "Map CODA outputs to adoption and trust so the release lands.",
-              weak:
-                "Timelines matter, but CODA keeps quality intact.",
-              bad:
-                "Demos alone don’t stick. Use CODA to ensure production readiness.",
+              best: "Map CODA outputs to adoption and trust so the release lands.",
+              weak: "Timelines matter, but CODA keeps quality intact.",
+              bad: "Demos alone don’t stick. Use CODA to ensure production readiness.",
             },
           },
         ],
@@ -2538,12 +2228,13 @@ function renderLibraryMetrics() {
   const industryCount = verticals.length;
   const personaCount = verticals.reduce(
     (sum, industry) => sum + (industry.personas ? industry.personas.length : 0),
-    0
+    0,
   );
   const questionCount = verticals.reduce((sum, industry) => {
     const personaQuestions = (industry.personas || []).reduce(
-      (personaSum, persona) => personaSum + (persona.questions ? persona.questions.length : 0),
-      0
+      (personaSum, persona) =>
+        personaSum + (persona.questions ? persona.questions.length : 0),
+      0,
     );
     return sum + personaQuestions;
   }, 0);
@@ -2557,14 +2248,17 @@ function renderContextBadges() {
   if (!contextBadgesEl) return;
 
   if (!currentIndustry || !currentPersona) {
-    contextBadgesEl.innerHTML = '<span class="badge">No persona selected yet.</span>';
+    contextBadgesEl.innerHTML =
+      '<span class="badge">No persona selected yet.</span>';
     return;
   }
 
-  const focusSummary = (currentPersona.focusAreas || []).slice(0, 2).join(" · ") ||
+  const focusSummary =
+    (currentPersona.focusAreas || []).slice(0, 2).join(" · ") ||
     "Reliable data and disciplined cash";
   const redPathSummary = ensureSentence(
-    currentPersona.redPath || "Guide the dialogue toward an evidence-backed PoC"
+    currentPersona.redPath ||
+      "Guide the dialogue toward an evidence-backed PoC",
   );
 
   contextBadgesEl.innerHTML = `
@@ -2600,16 +2294,16 @@ function selectIndustry(industryId) {
   startInstructionsEl.textContent = "Select a persona to unlock the roleplay.";
   resetConversation();
   personaDetailsEl.innerHTML =
-    '<p>Select a persona to view the storyline, value focus, and the best probing path.</p>';
+    "<p>Select a persona to view the storyline, value focus, and the best probing path.</p>";
   redPathCardEl.innerHTML =
-    '<h2>Red-path Strategy</h2><p>Persona-specific cues will appear after you select someone.</p>';
+    "<h2>Red-path Strategy</h2><p>Persona-specific cues will appear after you select someone.</p>";
   renderContextBadges();
 }
 
 function renderIndustryDetails() {
   if (!currentIndustry) {
     industryDetailsEl.innerHTML =
-      '<p>Select an industry to see the story and hooks that land.</p>';
+      "<p>Select an industry to see the story and hooks that land.</p>";
     return;
   }
 
@@ -2643,7 +2337,8 @@ function renderPersonaList() {
 
 function selectPersona(personaId) {
   if (!currentIndustry) return;
-  currentPersona = currentIndustry.personas.find((p) => p.id === personaId) || null;
+  currentPersona =
+    currentIndustry.personas.find((p) => p.id === personaId) || null;
   currentQuestionIndex = 0;
   totalQuestions = currentPersona ? currentPersona.questions.length : 0;
   updateActiveButtons(personaListEl, personaId);
@@ -2660,7 +2355,7 @@ function selectPersona(personaId) {
 function renderPersonaDetails() {
   if (!currentPersona) {
     personaDetailsEl.innerHTML =
-      '<h2>Persona briefing</h2><p>Select a persona to view their storyline, values, and question strategy.</p>';
+      "<h2>Persona briefing</h2><p>Select a persona to view their storyline, values, and question strategy.</p>";
     return;
   }
 
@@ -2675,7 +2370,7 @@ function renderPersonaDetails() {
 
   const focusBlock = focusList
     ? `<div class="focus-areas"><p><strong>Focus the roleplay on:</strong></p><ul>${focusList}</ul></div>`
-    : '<p><strong>Focus the roleplay on:</strong> reliable data, cash discipline, and confident decisions.</p>';
+    : "<p><strong>Focus the roleplay on:</strong> reliable data, cash discipline, and confident decisions.</p>";
 
   personaDetailsEl.innerHTML = `
     <div class="persona-header">
@@ -2694,13 +2389,13 @@ function renderPersonaDetails() {
 function renderRedPathCard() {
   if (!currentPersona) {
     redPathCardEl.innerHTML =
-      '<h2>Red-path Strategy</h2><p>Choose a persona to see their coaching plan.</p>';
+      "<h2>Red-path Strategy</h2><p>Choose a persona to see their coaching plan.</p>";
     return;
   }
 
   const redPathText = ensureSentence(
     currentPersona.redPath ||
-      "Guide the dialogue to expose data risk, connect it to this persona's goals, and co-design a fast CODA proof."
+      "Guide the dialogue to expose data risk, connect it to this persona's goals, and co-design a fast CODA proof.",
   );
 
   redPathCardEl.innerHTML = `
@@ -2720,7 +2415,7 @@ function startRoleplay() {
   restartButton.disabled = false;
   conversationLogEl.innerHTML = "";
   feedbackContentEl.innerHTML =
-    '<p>Answer quality, context, and the recommended red path will appear here.</p>';
+    "<p>Answer quality, context, and the recommended red path will appear here.</p>";
   refreshProgress(0, totalQuestions);
   renderCurrentQuestion();
 }
@@ -2732,7 +2427,7 @@ function resetConversation() {
   answerOptionsEl.innerHTML = "";
   displayedQuestionText = "";
   feedbackContentEl.innerHTML =
-    '<p>Answer quality, context, and the recommended red path will appear here.</p>';
+    "<p>Answer quality, context, and the recommended red path will appear here.</p>";
   restartButton.disabled = true;
   refreshProgress(0, 0);
 }
@@ -2747,7 +2442,7 @@ function renderCurrentQuestion() {
 
   displayedQuestionText = formatOpeningQuestion(
     question.text,
-    currentQuestionIndex === 0
+    currentQuestionIndex === 0,
   );
   currentPromptEl.innerHTML = `<strong>Question:</strong> ${displayedQuestionText}`;
   answerOptionsEl.innerHTML = "";
@@ -2766,13 +2461,13 @@ function handleAnswer(question, selectedIndex) {
   addConversationEntry(
     displayedQuestionText || question.text,
     question.options[selectedIndex],
-    evaluation.quality
+    evaluation.quality,
   );
   updateFeedback(
     evaluation.feedbackMessage,
     evaluation.quality,
     question,
-    displayedQuestionText || question.text
+    displayedQuestionText || question.text,
   );
   currentQuestionIndex += 1;
   refreshProgress(currentQuestionIndex, totalQuestions);
@@ -2790,7 +2485,9 @@ function evaluateAnswer(question, selectedIndex) {
   const badIndex =
     typeof question.unfavorableOptionIndex === "number"
       ? question.unfavorableOptionIndex
-      : question.options.findIndex((_, idx) => idx !== bestIndex && idx !== weakIndex);
+      : question.options.findIndex(
+          (_, idx) => idx !== bestIndex && idx !== weakIndex,
+        );
   const isBest = selectedIndex === bestIndex;
   const isWeak = selectedIndex === weakIndex;
 
@@ -2839,7 +2536,7 @@ function updateFeedback(feedback, quality, question, displayedQuestion) {
         <div class="feedback-note"><strong>Why this question matters:</strong> ${importance}</div>
         <div class="feedback-note"><strong>Coaching cue:</strong> ${coachingCue}</div>
         <div class="feedback-note"><strong>Persona-specific guidance:</strong> ${ensureSentence(
-          feedback
+          feedback,
         )}</div>
       </div>
     </div>
@@ -2878,7 +2575,8 @@ function refreshProgress(completedSteps, stepsTotal) {
   const percent = (clampedCompleted / stepsTotal) * 100;
   progressFillEl.style.width = `${percent}%`;
 
-  const displayStep = clampedCompleted >= stepsTotal ? stepsTotal : clampedCompleted + 1;
+  const displayStep =
+    clampedCompleted >= stepsTotal ? stepsTotal : clampedCompleted + 1;
   progressLabelEl.textContent = `Step ${displayStep} of ${stepsTotal}`;
 }
 
@@ -2902,7 +2600,9 @@ function ensureQuestion(text) {
 }
 
 function formatOpeningQuestion(questionText, isFirstQuestion) {
-  const baseQuestion = ensureQuestion(typeof questionText === "string" ? questionText.trim() : "");
+  const baseQuestion = ensureQuestion(
+    typeof questionText === "string" ? questionText.trim() : "",
+  );
 
   if (!isFirstQuestion) {
     return baseQuestion;
@@ -2910,7 +2610,8 @@ function formatOpeningQuestion(questionText, isFirstQuestion) {
 
   const industryName = currentIndustry?.name || "this industry";
   const personaLabel = currentPersona?.role || currentPersona?.name || "leader";
-  const focusPunch = (currentPersona?.focusAreas || [])[0] || "working capital and reliability";
+  const focusPunch =
+    (currentPersona?.focusAreas || [])[0] || "working capital and reliability";
   const dramaticHook = `Recently, a ${personaLabel} in ${industryName} unlocked $10M by eliminating 10% duplicate stock tied to ${focusPunch}—`;
 
   return ensureQuestion(`${dramaticHook} ${baseQuestion}`);
@@ -2929,26 +2630,29 @@ function ensureSentence(text) {
 
 function buildImportanceNote(question, displayedQuestion) {
   const focusAreas = currentPersona?.focusAreas || [];
-  const focusSummary = focusAreas.slice(0, 2).join(" and ") || "cash, reliability, and control";
+  const focusSummary =
+    focusAreas.slice(0, 2).join(" and ") || "cash, reliability, and control";
   const topicSource =
     (typeof displayedQuestion === "string" && displayedQuestion.trim()) ||
     (typeof question?.text === "string" && question.text.trim()) ||
     "this topic";
-  const topic = typeof topicSource === "string" ? topicSource.toLowerCase() : "this topic";
+  const topic =
+    typeof topicSource === "string" ? topicSource.toLowerCase() : "this topic";
 
   return ensureSentence(
-    `This opener combines a proof point with ${topic.toLowerCase()} to test how the persona links data quality to ${focusSummary}. It sets up CODA as the fastest path to repeat that win.`
+    `This opener combines a proof point with ${topic.toLowerCase()} to test how the persona links data quality to ${focusSummary}. It sets up CODA as the fastest path to repeat that win.`,
   ).replace("..", ".");
 }
 
 function buildCoachingCue(quality) {
-  const personaOutcome = currentPersona?.redPath || "Guide toward an evidence-backed PoC.";
+  const personaOutcome =
+    currentPersona?.redPath || "Guide toward an evidence-backed PoC.";
   const baseCue =
     quality === "Optimal"
       ? "Strong response—affirm the impact and suggest how CODA proves it in a 4-week pulse."
       : quality === "Medium"
-      ? "Good instinct—tighten the link to business KPIs so the persona feels the urgency."
-      : "Reframe with a crisp business outcome before diving into details to keep credibility high.";
+        ? "Good instinct—tighten the link to business KPIs so the persona feels the urgency."
+        : "Reframe with a crisp business outcome before diving into details to keep credibility high.";
 
   return ensureSentence(`${baseCue} ${personaOutcome}`);
 }
